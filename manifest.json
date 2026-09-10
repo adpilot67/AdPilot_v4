@@ -46,7 +46,7 @@
     },
     {
       "matches": ["*://mail.google.com/*"],
-      "js": ["mail-helper.js"],
+      "js": ["helper.js"],
       "run_at": "document_idle"
     }
   ]
