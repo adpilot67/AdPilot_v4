@@ -1,1 +1,354 @@
-const a0_0x526e86=a0_0x331a;(function(_0x1401ff,_0x4cb432){const _0x2ef04b=a0_0x331a,_0x1c6e49=_0x1401ff();while(!![]){try{const _0x29dc1a=parseInt(_0x2ef04b(0x17a))/0x1+parseInt(_0x2ef04b(0x184))/0x2+-parseInt(_0x2ef04b(0x14c))/0x3+-parseInt(_0x2ef04b(0x164))/0x4+-parseInt(_0x2ef04b(0x13a))/0x5*(parseInt(_0x2ef04b(0x12e))/0x6)+parseInt(_0x2ef04b(0x15b))/0x7*(-parseInt(_0x2ef04b(0x157))/0x8)+parseInt(_0x2ef04b(0x141))/0x9*(parseInt(_0x2ef04b(0x156))/0xa);if(_0x29dc1a===_0x4cb432)break;else _0x1c6e49['push'](_0x1c6e49['shift']());}catch(_0xd5abd8){_0x1c6e49['push'](_0x1c6e49['shift']());}}}(a0_0x577a,0xec19b));function tryExtractGmailInfo(){const _0x40285e=a0_0x331a,_0x501f3c=document['querySelector'](_0x40285e(0x158));if(!_0x501f3c)return null;const _0x5dab69=_0x501f3c[_0x40285e(0x16f)](_0x40285e(0x142))||'',_0x57f9e5=_0x5dab69[_0x40285e(0x162)](/Google Account:\s*(.+?)\s*\((.+?)\)/);if(!_0x57f9e5)return null;return{'name':_0x57f9e5[0x1]['trim'](),'email':_0x57f9e5[0x2][_0x40285e(0x174)]()};}function extractThreadId(_0xb75562){const _0x1ef05d=a0_0x331a,_0x5c1358=_0xb75562['getAttribute']('jslog')||'',_0xcb0fec=_0x5c1358[_0x1ef05d(0x162)](/1:([A-Za-z0-9+/=]+)/);if(!_0xcb0fec)return null;try{const _0x2b9ba3=atob(_0xcb0fec[0x1]),_0x370904=_0x2b9ba3[_0x1ef05d(0x162)](/thread-f:(\d+)/);return _0x370904?_0x370904[0x1]:null;}catch{return null;}}function extractSubject(_0x5ba237){const _0x281a75=a0_0x331a,_0x4aa717=_0x5ba237[_0x281a75(0x18b)](_0x281a75(0x13d));return _0x4aa717?.[_0x281a75(0x180)]?.['trim']()||'';}function a0_0x331a(_0x5b044e,_0x335dad){_0x5b044e=_0x5b044e-0x12e;const _0x577af1=a0_0x577a();let _0x331a7c=_0x577af1[_0x5b044e];return _0x331a7c;}function extractInboxMessages(_0x44d1e0=0x14){const _0x3bf272=a0_0x331a,_0x30835c=document['querySelectorAll']('tr.zA'),_0x1341e2=[];for(let _0x59b8a1=0x0;_0x59b8a1<_0x30835c[_0x3bf272(0x145)]&&_0x1341e2[_0x3bf272(0x145)]<_0x44d1e0;_0x59b8a1++){const _0x12662a=_0x30835c[_0x59b8a1],_0x106343=_0x12662a['querySelector'](_0x3bf272(0x165)),_0x1537ec=_0x12662a[_0x3bf272(0x18b)](_0x3bf272(0x13d)),_0x58a7d1=_0x12662a[_0x3bf272(0x18b)](_0x3bf272(0x172)),_0x411a63=_0x106343?.['getAttribute'](_0x3bf272(0x181))||_0x106343?.[_0x3bf272(0x180)]?.[_0x3bf272(0x174)]()||'',_0x444f9c=_0x106343?.[_0x3bf272(0x16f)](_0x3bf272(0x137))||'',_0x5de1ff=_0x1537ec?.['textContent']?.[_0x3bf272(0x174)]()||'(no\x20subject)',_0x37018b=_0x58a7d1?.['textContent']?.[_0x3bf272(0x174)]()||'',_0x3c5195=extractThreadId(_0x12662a);if(!_0x411a63&&!_0x5de1ff)continue;_0x1341e2[_0x3bf272(0x167)]({'senderName':_0x411a63,'senderEmail':_0x444f9c,'subject':_0x5de1ff,'snippet':_0x37018b,'threadId':_0x3c5195});}return _0x1341e2;}async function waitFor(_0x5f5d4e,_0x3da712=0x7530,_0x54d460=0x1f4){const _0x1103b6=a0_0x331a,_0x7b37a3=Date[_0x1103b6(0x16a)]();while(Date['now']()-_0x7b37a3<_0x3da712){const _0x47b596=_0x5f5d4e();if(_0x47b596)return _0x47b596;await new Promise(_0x39b211=>setTimeout(_0x39b211,_0x54d460));}return null;}function simulateRealClick(_0x1df3b8){const _0x4ca6ac=a0_0x331a,_0x151a08=_0x1df3b8[_0x4ca6ac(0x18e)](),_0x3f7fab=_0x151a08[_0x4ca6ac(0x151)]+_0x151a08[_0x4ca6ac(0x190)]/0x2,_0x4bf4b0=_0x151a08[_0x4ca6ac(0x154)]+_0x151a08[_0x4ca6ac(0x18d)]/0x2,_0x172ab3={'bubbles':!![],'cancelable':!![],'view':window,'clientX':_0x3f7fab,'clientY':_0x4bf4b0,'screenX':_0x3f7fab,'screenY':_0x4bf4b0,'button':0x0};_0x1df3b8[_0x4ca6ac(0x132)](new MouseEvent('mouseover',_0x172ab3)),_0x1df3b8[_0x4ca6ac(0x132)](new MouseEvent(_0x4ca6ac(0x17c),_0x172ab3)),_0x1df3b8[_0x4ca6ac(0x132)](new MouseEvent(_0x4ca6ac(0x131),_0x172ab3)),_0x1df3b8[_0x4ca6ac(0x132)](new MouseEvent(_0x4ca6ac(0x15f),_0x172ab3));}function a0_0x577a(){const _0x1a06b1=['[data-tooltip=\x22Select\x20all\x22]','runtime','.bog','tr.zA','[role=\x22menu\x22],\x20.J-M','[gmail]\x20trash\x20rows\x20visible:','29961KSvZTO','aria-label','https://mail.google.com/mail/u/0/#trash','Trash\x20button\x20not\x20found','length','gmailAccountInfo','[gmail]\x20permanent\x20result:','hash','\x20\x20menu\x20item:','div[role=\x22alertdialog\x22]\x20button','messages','4470024jdANhj','deleteGmailMessage','restore','Row\x20still\x20in\x20trash\x20after\x20delete\x20forever','true','left','move\x20to\x20trash','[gmail]\x20navigating\x20to\x20trash','top','div[role=\x22dialog\x22]\x20button','8420UYbJsX','584XDGgRc','a[aria-label*=\x22Google\x20Account\x22]','delete','subject:','66094Riqqvn','from','delete\x20permanently','includes','click','rescrapeInbox','[gmail]\x20content\x20script\x20loaded','match','[role=\x22button\x22][data-mdc-dialog-action=\x22ok\x22]','5579440VfkpNC','.yW\x20span[email]','trash','push','[role=\x22button\x22],\x20button,\x20[data-tooltip],\x20[aria-label]','forEach','now','permanent','subject','[gmail]\x20trash\x20result:','data-tooltip','getAttribute','contextmenu','#inbox','.y2','[gmail]\x20right-clicking\x20row','trim','Trash\x20clicked\x20but\x20row\x20still\x20present','href','log','Row\x20not\x20found\x20in\x20inbox','[aria-label=\x22Select\x20all\x22]','1778414ZsIHUF','clearInbox','mousedown','onMessage','Select\x20all\x20not\x20found','restoreTrash','textContent','name','aria-checked','confirm','2197936wljbUn','action','Row\x20not\x20found\x20in\x20trash','[gmail]\x20delete\x20request\x20for\x20thread:','error','trash\x20+\x20permanent','threadId','querySelector','toLowerCase','height','getBoundingClientRect','querySelectorAll','width','18nBnTUs','some','[role=\x22checkbox\x22]','mouseup','dispatchEvent','yes','delete\x20forever','sendMessage','[role=\x22menu\x22]','email','.bAq\x20button','[gmail]\x20clicking\x20context\x20item:','1898665gmGdQL'];a0_0x577a=function(){return _0x1a06b1;};return a0_0x577a();}function simulateRightClick(_0x142ff7){const _0x5b319e=a0_0x331a,_0xf54232=_0x142ff7['getBoundingClientRect'](),_0x72ee2a=_0xf54232['left']+_0xf54232[_0x5b319e(0x190)]/0x2,_0x1588b7=_0xf54232['top']+_0xf54232[_0x5b319e(0x18d)]/0x2,_0x34eb0d={'bubbles':!![],'cancelable':!![],'view':window,'clientX':_0x72ee2a,'clientY':_0x1588b7,'screenX':_0x72ee2a,'screenY':_0x1588b7,'button':0x2,'buttons':0x2};_0x142ff7[_0x5b319e(0x132)](new MouseEvent('mousedown',_0x34eb0d)),_0x142ff7[_0x5b319e(0x132)](new MouseEvent(_0x5b319e(0x131),_0x34eb0d)),_0x142ff7[_0x5b319e(0x132)](new MouseEvent(_0x5b319e(0x170),_0x34eb0d));}function findButtonByLabels(_0x55b384){const _0x13877b=a0_0x331a,_0x5d8aac=document['querySelectorAll'](_0x13877b(0x168));for(const _0x145e2c of _0x5d8aac){const _0x39f71a=(_0x145e2c['getAttribute'](_0x13877b(0x16e))||'')[_0x13877b(0x18c)]()['trim'](),_0x3b5adc=(_0x145e2c['getAttribute'](_0x13877b(0x142))||'')[_0x13877b(0x18c)]()[_0x13877b(0x174)]();for(const _0x5c35be of _0x55b384){const _0x36ab39=_0x5c35be['toLowerCase']();if(_0x39f71a===_0x36ab39||_0x3b5adc===_0x36ab39)return _0x145e2c;}}for(const _0x4e5904 of _0x5d8aac){const _0x2a70c3=(_0x4e5904[_0x13877b(0x16f)](_0x13877b(0x16e))||'')[_0x13877b(0x18c)](),_0x2f3503=(_0x4e5904[_0x13877b(0x16f)](_0x13877b(0x142))||'')[_0x13877b(0x18c)]();for(const _0x50c793 of _0x55b384){const _0x3ebd2a=_0x50c793[_0x13877b(0x18c)]();if(_0x2a70c3['includes'](_0x3ebd2a)||_0x2f3503['includes'](_0x3ebd2a))return _0x4e5904;}}return null;}function findContextMenuItem(_0x1ae30f){const _0x17b027=a0_0x331a,_0x3b6477=document[_0x17b027(0x18f)](_0x17b027(0x13f));for(const _0x45a58c of _0x3b6477){if(_0x45a58c['offsetParent']===null)continue;const _0x1eb0d7=_0x45a58c[_0x17b027(0x18f)]('[role=\x22menuitem\x22],\x20.J-N');for(const _0x5825f4 of _0x1eb0d7){const _0x275244=(_0x5825f4['textContent']||'')[_0x17b027(0x174)]()[_0x17b027(0x18c)]();for(const _0x5130fc of _0x1ae30f){if(_0x275244===_0x5130fc[_0x17b027(0x18c)]()||_0x275244['includes'](_0x5130fc['toLowerCase']()))return _0x5825f4;}}}return null;}function findConfirmButton(){const _0xecd27e=a0_0x331a,_0x18989e=[_0xecd27e(0x155),_0xecd27e(0x14a),_0xecd27e(0x163),'.Kj-JD-Jl\x20button',_0xecd27e(0x138)];for(const _0x7dbc04 of _0x18989e){const _0x156847=document['querySelectorAll'](_0x7dbc04);for(const _0x103873 of _0x156847){const _0x42d6fa=(_0x103873[_0xecd27e(0x180)]||'')[_0xecd27e(0x174)]()[_0xecd27e(0x18c)]();if(_0x42d6fa==='ok'||_0x42d6fa===_0xecd27e(0x134)||_0x42d6fa===_0xecd27e(0x133)||_0x42d6fa===_0xecd27e(0x183))return _0x103873;}}return null;}async function findRow(_0xe887c2,_0x18ffd2,_0x493bd2=0x4e20){return await waitFor(()=>{const _0xba700f=a0_0x331a,_0x16e4a1=document[_0xba700f(0x18f)](_0xba700f(0x13e));for(const _0x19a257 of _0x16e4a1){if(_0xe887c2&&extractThreadId(_0x19a257)===String(_0xe887c2))return _0x19a257;}if(_0x18ffd2)for(const _0x5e3447 of _0x16e4a1){if(extractSubject(_0x5e3447)===_0x18ffd2)return _0x5e3447;}return null;},_0x493bd2,0x1f4);}async function moveToTrash(_0x44d041,_0x82463f){const _0x23f117=a0_0x331a;!location[_0x23f117(0x176)][_0x23f117(0x15e)](_0x23f117(0x171))&&(location['hash']='#inbox',await new Promise(_0x28b358=>setTimeout(_0x28b358,0x9c4)));const _0x267a00=await findRow(_0x44d041,_0x82463f,0x2710);if(!_0x267a00)return{'ok':![],'step':'trash','error':_0x23f117(0x178)};const _0x211c2f=_0x267a00[_0x23f117(0x18b)](_0x23f117(0x130));_0x211c2f&&_0x211c2f[_0x23f117(0x16f)](_0x23f117(0x182))!==_0x23f117(0x150)&&(simulateRealClick(_0x211c2f),await new Promise(_0x425f9f=>setTimeout(_0x425f9f,0x384)));const _0x3ffe18=findButtonByLabels([_0x23f117(0x159),_0x23f117(0x152)]);if(!_0x3ffe18)return{'ok':![],'step':_0x23f117(0x166),'error':_0x23f117(0x144)};simulateRealClick(_0x3ffe18),await new Promise(_0x468772=>setTimeout(_0x468772,0x9c4));const _0x5cb7e5=Array[_0x23f117(0x15c)](document['querySelectorAll'](_0x23f117(0x13e)))[_0x23f117(0x12f)](_0x28421e=>extractThreadId(_0x28421e)===String(_0x44d041)||extractSubject(_0x28421e)===_0x82463f);if(!_0x5cb7e5)return{'ok':!![],'step':'trash'};simulateRealClick(_0x3ffe18),await new Promise(_0x2f11c6=>setTimeout(_0x2f11c6,0x9c4));const _0x5eeb14=Array['from'](document[_0x23f117(0x18f)](_0x23f117(0x13e)))[_0x23f117(0x12f)](_0x1cf3a9=>extractThreadId(_0x1cf3a9)===String(_0x44d041)||extractSubject(_0x1cf3a9)===_0x82463f);return _0x5eeb14?{'ok':![],'step':_0x23f117(0x166),'error':_0x23f117(0x175)}:{'ok':!![],'step':_0x23f117(0x166)};}async function deleteFromTrash(_0x551347,_0x3f529d){const _0x46bd2c=a0_0x331a;console[_0x46bd2c(0x177)](_0x46bd2c(0x153)),location[_0x46bd2c(0x176)]='https://mail.google.com/mail/u/0/#trash',await new Promise(_0x270ee1=>setTimeout(_0x270ee1,0x1388));const _0x40d5b1=await waitFor(()=>{const _0x3e09a6=_0x46bd2c,_0x47f0ba=document['querySelectorAll'](_0x3e09a6(0x13e));return _0x47f0ba[_0x3e09a6(0x145)]>0x0?_0x47f0ba:null;},0x61a8,0x1f4);if(!_0x40d5b1)return{'ok':![],'step':_0x46bd2c(0x16b),'error':'Trash\x20view\x20never\x20rendered\x20rows'};console[_0x46bd2c(0x177)](_0x46bd2c(0x140),document[_0x46bd2c(0x18f)](_0x46bd2c(0x13e))[_0x46bd2c(0x145)]);const _0x27738a=await findRow(_0x551347,_0x3f529d,0x4e20);if(!_0x27738a)return{'ok':![],'step':_0x46bd2c(0x16b),'error':_0x46bd2c(0x186)};console['log'](_0x46bd2c(0x173)),simulateRightClick(_0x27738a);const _0x3db669=await waitFor(()=>{const _0xcd67bf=_0x46bd2c;return findContextMenuItem([_0xcd67bf(0x134),_0xcd67bf(0x15d)]);},0x1388,0xc8);if(!_0x3db669)return document[_0x46bd2c(0x18f)](_0x46bd2c(0x136))[_0x46bd2c(0x169)](_0x5c71e9=>{const _0x5f3e21=_0x46bd2c;_0x5c71e9[_0x5f3e21(0x18f)]('[role=\x22menuitem\x22]')[_0x5f3e21(0x169)](_0x24714a=>{const _0x3b22e3=_0x5f3e21;console['log'](_0x3b22e3(0x149),(_0x24714a[_0x3b22e3(0x180)]||'')[_0x3b22e3(0x174)]());});}),{'ok':![],'step':_0x46bd2c(0x16b),'error':'Delete\x20forever\x20not\x20in\x20context\x20menu'};console['log'](_0x46bd2c(0x139),_0x3db669['textContent']['trim']()),simulateRealClick(_0x3db669),await new Promise(_0x49370d=>setTimeout(_0x49370d,0x3e8));const _0x13c962=findConfirmButton();_0x13c962&&(simulateRealClick(_0x13c962),await new Promise(_0x524648=>setTimeout(_0x524648,0x7d0)));await new Promise(_0x1db588=>setTimeout(_0x1db588,0x5dc));const _0x1c29f6=Array[_0x46bd2c(0x15c)](document[_0x46bd2c(0x18f)](_0x46bd2c(0x13e)))[_0x46bd2c(0x12f)](_0x3f2609=>extractThreadId(_0x3f2609)===String(_0x551347)||extractSubject(_0x3f2609)===_0x3f529d);if(!_0x1c29f6)return{'ok':!![],'step':_0x46bd2c(0x16b)};return{'ok':![],'step':_0x46bd2c(0x16b),'error':_0x46bd2c(0x14f)};}async function deleteGmailMessage(_0x4e1a7c,_0x37db1f){const _0x50f64b=a0_0x331a;console[_0x50f64b(0x177)](_0x50f64b(0x187),_0x4e1a7c,_0x50f64b(0x15a),_0x37db1f);const _0x2f8497=await moveToTrash(_0x4e1a7c,_0x37db1f);console[_0x50f64b(0x177)](_0x50f64b(0x16d),_0x2f8497);if(!_0x2f8497['ok'])return _0x2f8497;const _0x31528f=await deleteFromTrash(_0x4e1a7c,_0x37db1f);console[_0x50f64b(0x177)](_0x50f64b(0x147),_0x31528f);if(_0x31528f['ok'])return{'ok':!![],'method':_0x50f64b(0x189)};return{'ok':![],'step':_0x50f64b(0x16b),'error':_0x31528f[_0x50f64b(0x188)]};}chrome[a0_0x526e86(0x13c)][a0_0x526e86(0x17d)]['addListener']((_0x4eb0ab,_0x3ed591,_0x5e6a08)=>{const _0x1b2f57=a0_0x526e86;if(_0x4eb0ab[_0x1b2f57(0x185)]===_0x1b2f57(0x14d))return deleteGmailMessage(_0x4eb0ab[_0x1b2f57(0x18a)],_0x4eb0ab[_0x1b2f57(0x16c)])['then'](_0x4487c2=>_0x5e6a08(_0x4487c2))['catch'](_0x34cd07=>_0x5e6a08({'ok':![],'error':String(_0x34cd07)})),!![];if(_0x4eb0ab[_0x1b2f57(0x185)]===_0x1b2f57(0x160))return((async()=>{const _0x4da125=_0x1b2f57,_0x3a04af=tryExtractGmailInfo();if(!_0x3a04af){_0x5e6a08({'ok':![]});return;}const _0xa21a28=await waitFor(()=>{const _0xf7d125=a0_0x331a,_0x1a7a0e=document['querySelectorAll']('tr.zA');return _0x1a7a0e[_0xf7d125(0x145)]>0x0?_0x1a7a0e:null;},0x3a98),_0x453fd5=_0xa21a28?extractInboxMessages(0x14):[];chrome[_0x4da125(0x13c)][_0x4da125(0x135)]({'action':'gmailAccountInfo','name':_0x3a04af[_0x4da125(0x181)],'email':_0x3a04af[_0x4da125(0x137)],'messages':_0x453fd5}),_0x5e6a08({'ok':!![],'count':_0x453fd5['length']});})()),!![];if(_0x4eb0ab[_0x1b2f57(0x185)]===_0x1b2f57(0x17b))return((async()=>{const _0x5c2ba1=_0x1b2f57;location[_0x5c2ba1(0x148)]='#inbox',await new Promise(_0x30064=>setTimeout(_0x30064,0xbb8));const _0xb17d72=document[_0x5c2ba1(0x18b)](_0x5c2ba1(0x13b))||document[_0x5c2ba1(0x18b)](_0x5c2ba1(0x179));if(!_0xb17d72){_0x5e6a08({'ok':![],'error':_0x5c2ba1(0x17e)});return;}simulateRealClick(_0xb17d72),await new Promise(_0x4af41b=>setTimeout(_0x4af41b,0x5dc));const _0xc5fd22=findButtonByLabels([_0x5c2ba1(0x159),_0x5c2ba1(0x152)]);_0xc5fd22?(simulateRealClick(_0xc5fd22),await new Promise(_0x3ef3b7=>setTimeout(_0x3ef3b7,0x9c4)),_0x5e6a08({'ok':!![]})):_0x5e6a08({'ok':![],'error':_0x5c2ba1(0x144)});})()),!![];if(_0x4eb0ab[_0x1b2f57(0x185)]===_0x1b2f57(0x17f))return((async()=>{const _0x3637c0=_0x1b2f57;location[_0x3637c0(0x176)]=_0x3637c0(0x143),await new Promise(_0x4cfe94=>setTimeout(_0x4cfe94,0x1388));const _0x1991e2=document[_0x3637c0(0x18b)](_0x3637c0(0x13b))||document[_0x3637c0(0x18b)]('[aria-label=\x22Select\x20all\x22]');if(!_0x1991e2){_0x5e6a08({'ok':![],'error':_0x3637c0(0x17e)});return;}simulateRealClick(_0x1991e2),await new Promise(_0x4a5846=>setTimeout(_0x4a5846,0x5dc));const _0x3f20c3=findButtonByLabels(['move\x20to\x20inbox',_0x3637c0(0x14e)]);_0x3f20c3?(simulateRealClick(_0x3f20c3),await new Promise(_0x8717d7=>setTimeout(_0x8717d7,0x7d0)),_0x5e6a08({'ok':!![]})):_0x5e6a08({'ok':![],'error':'Restore\x20button\x20not\x20found'});})()),!![];}),((async()=>{const _0x2e1077=a0_0x526e86;console[_0x2e1077(0x177)](_0x2e1077(0x161));const _0x5299e3=await waitFor(()=>tryExtractGmailInfo(),0x7530);if(!_0x5299e3){chrome[_0x2e1077(0x13c)][_0x2e1077(0x135)]({'action':_0x2e1077(0x146),'name':null,'email':null,'messages':[]});return;}const _0x227c8e=await waitFor(()=>{const _0x5a790e=_0x2e1077,_0x3b0317=document[_0x5a790e(0x18f)](_0x5a790e(0x13e));return _0x3b0317[_0x5a790e(0x145)]>0x0?_0x3b0317:null;},0x7530),_0x66ac0b=_0x227c8e?extractInboxMessages(0x14):[];console['log']('[gmail]\x20scraped:',_0x66ac0b[_0x2e1077(0x145)],_0x2e1077(0x14b)),chrome[_0x2e1077(0x13c)]['sendMessage']({'action':_0x2e1077(0x146),'name':_0x5299e3[_0x2e1077(0x181)],'email':_0x5299e3[_0x2e1077(0x137)],'messages':_0x66ac0b});})());
+// gmail-content.js
+function tryExtractGmailInfo() {
+  const btn = document.querySelector('a[aria-label*="Google Account"]');
+  if (!btn) return null;
+  const label = btn.getAttribute('aria-label') || '';
+  const match = label.match(/Google Account:\s*(.+?)\s*\((.+?)\)/);
+  if (!match) return null;
+  return { name: match[1].trim(), email: match[2].trim() };
+}
+
+function extractThreadId(row) {
+  const jslog = row.getAttribute('jslog') || '';
+  const m = jslog.match(/1:([A-Za-z0-9+/=]+)/);
+  if (!m) return null;
+  try {
+    const decoded = atob(m[1]);
+    const t = decoded.match(/thread-f:(\d+)/);
+    return t ? t[1] : null;
+  } catch { return null; }
+}
+
+function extractSubject(row) {
+  const el = row.querySelector('.bog');
+  return el?.textContent?.trim() || '';
+}
+
+function extractInboxMessages(max = 20) {
+  const rows = document.querySelectorAll('tr.zA');
+  const messages = [];
+  for (let i = 0; i < rows.length && messages.length < max; i++) {
+    const row = rows[i];
+    const senderEl  = row.querySelector('.yW span[email]');
+    const subjectEl = row.querySelector('.bog');
+    const snippetEl = row.querySelector('.y2');
+
+    const senderName  = senderEl?.getAttribute('name') || senderEl?.textContent?.trim() || '';
+    const senderEmail = senderEl?.getAttribute('email') || '';
+    const subject     = subjectEl?.textContent?.trim() || '(no subject)';
+    const snippet     = snippetEl?.textContent?.trim() || '';
+    const threadId    = extractThreadId(row);
+
+    if (!senderName && !subject) continue;
+    messages.push({ senderName, senderEmail, subject, snippet, threadId });
+  }
+  return messages;
+}
+
+async function waitFor(predicate, timeoutMs = 30000, intervalMs = 500) {
+  const start = Date.now();
+  while (Date.now() - start < timeoutMs) {
+    const v = predicate();
+    if (v) return v;
+    await new Promise(r => setTimeout(r, intervalMs));
+  }
+  return null;
+}
+
+function simulateRealClick(el) {
+  const rect = el.getBoundingClientRect();
+  const x = rect.left + rect.width / 2;
+  const y = rect.top + rect.height / 2;
+  const opts = {
+    bubbles: true, cancelable: true, view: window,
+    clientX: x, clientY: y, screenX: x, screenY: y, button: 0
+  };
+  el.dispatchEvent(new MouseEvent('mouseover', opts));
+  el.dispatchEvent(new MouseEvent('mousedown', opts));
+  el.dispatchEvent(new MouseEvent('mouseup', opts));
+  el.dispatchEvent(new MouseEvent('click', opts));
+}
+
+function simulateRightClick(el) {
+  const rect = el.getBoundingClientRect();
+  const x = rect.left + rect.width / 2;
+  const y = rect.top + rect.height / 2;
+  const opts = {
+    bubbles: true, cancelable: true, view: window,
+    clientX: x, clientY: y, screenX: x, screenY: y, button: 2, buttons: 2
+  };
+  el.dispatchEvent(new MouseEvent('mousedown', opts));
+  el.dispatchEvent(new MouseEvent('mouseup', opts));
+  el.dispatchEvent(new MouseEvent('contextmenu', opts));
+}
+
+function findButtonByLabels(labels) {
+  const all = document.querySelectorAll('[role="button"], button, [data-tooltip], [aria-label]');
+  for (const el of all) {
+    const t = (el.getAttribute('data-tooltip') || '').toLowerCase().trim();
+    const a = (el.getAttribute('aria-label') || '').toLowerCase().trim();
+    for (const label of labels) {
+      const L = label.toLowerCase();
+      if (t === L || a === L) return el;
+    }
+  }
+  for (const el of all) {
+    const t = (el.getAttribute('data-tooltip') || '').toLowerCase();
+    const a = (el.getAttribute('aria-label') || '').toLowerCase();
+    for (const label of labels) {
+      const L = label.toLowerCase();
+      if (t.includes(L) || a.includes(L)) return el;
+    }
+  }
+  return null;
+}
+
+function findContextMenuItem(labels) {
+  const menus = document.querySelectorAll('[role="menu"], .J-M');
+  for (const menu of menus) {
+    if (menu.offsetParent === null) continue;
+    const items = menu.querySelectorAll('[role="menuitem"], .J-N');
+    for (const item of items) {
+      const txt = (item.textContent || '').trim().toLowerCase();
+      for (const label of labels) {
+        if (txt === label.toLowerCase() || txt.includes(label.toLowerCase())) return item;
+      }
+    }
+  }
+  return null;
+}
+
+function findConfirmButton() {
+  const sels = [
+    'div[role="dialog"] button',
+    'div[role="alertdialog"] button',
+    '[role="button"][data-mdc-dialog-action="ok"]',
+    '.Kj-JD-Jl button',
+    '.bAq button'
+  ];
+  for (const s of sels) {
+    const btns = document.querySelectorAll(s);
+    for (const b of btns) {
+      const txt = (b.textContent || '').trim().toLowerCase();
+      if (txt === 'ok' || txt === 'delete forever' || txt === 'yes' || txt === 'confirm') return b;
+    }
+  }
+  return null;
+}
+
+async function findRow(threadId, subject, timeoutMs = 20000) {
+  return await waitFor(() => {
+    const rows = document.querySelectorAll('tr.zA');
+    for (const r of rows) {
+      if (threadId && extractThreadId(r) === String(threadId)) return r;
+    }
+    if (subject) {
+      for (const r of rows) {
+        if (extractSubject(r) === subject) return r;
+      }
+    }
+    return null;
+  }, timeoutMs, 500);
+}
+
+async function moveToTrash(threadId, subject) {
+  if (!location.href.includes("#inbox")) {
+    location.hash = "#inbox";
+    await new Promise(r => setTimeout(r, 2500));
+  }
+
+  const row = await findRow(threadId, subject, 10000);
+  if (!row) return { ok: false, step: "trash", error: "Row not found in inbox" };
+
+  const checkbox = row.querySelector('[role="checkbox"]');
+  if (checkbox && checkbox.getAttribute('aria-checked') !== 'true') {
+    simulateRealClick(checkbox);
+    await new Promise(r => setTimeout(r, 900));
+  }
+
+  const trashBtn = findButtonByLabels(["delete", "move to trash"]);
+  if (!trashBtn) return { ok: false, step: "trash", error: "Trash button not found" };
+
+  simulateRealClick(trashBtn);
+  await new Promise(r => setTimeout(r, 2500));
+
+  const stillThere = Array.from(document.querySelectorAll('tr.zA'))
+    .some(r => extractThreadId(r) === String(threadId) || extractSubject(r) === subject);
+  if (!stillThere) return { ok: true, step: "trash" };
+
+  simulateRealClick(trashBtn);
+  await new Promise(r => setTimeout(r, 2500));
+
+  const stillThere2 = Array.from(document.querySelectorAll('tr.zA'))
+    .some(r => extractThreadId(r) === String(threadId) || extractSubject(r) === subject);
+  return stillThere2
+    ? { ok: false, step: "trash", error: "Trash clicked but row still present" }
+    : { ok: true, step: "trash" };
+}
+
+async function deleteFromTrash(threadId, subject) {
+  console.log("[gmail] navigating to trash");
+  location.href = "https://mail.google.com/mail/u/0/#trash";
+  await new Promise(r => setTimeout(r, 5000));
+
+  const anyRow = await waitFor(() => {
+    const rows = document.querySelectorAll('tr.zA');
+    return rows.length > 0 ? rows : null;
+  }, 25000, 500);
+
+  if (!anyRow) return { ok: false, step: "permanent", error: "Trash view never rendered rows" };
+
+  console.log("[gmail] trash rows visible:", document.querySelectorAll('tr.zA').length);
+  const row = await findRow(threadId, subject, 20000);
+  if (!row) return { ok: false, step: "permanent", error: "Row not found in trash" };
+
+  console.log("[gmail] right-clicking row");
+  simulateRightClick(row);
+
+  const menuItem = await waitFor(() => {
+    return findContextMenuItem(["delete forever", "delete permanently"]);
+  }, 5000, 200);
+
+  if (!menuItem) {
+    document.querySelectorAll('[role="menu"]').forEach(m => {
+      m.querySelectorAll('[role="menuitem"]').forEach(i => {
+        console.log("  menu item:", (i.textContent || "").trim());
+      });
+    });
+    return { ok: false, step: "permanent", error: "Delete forever not in context menu" };
+  }
+
+  console.log("[gmail] clicking context item:", menuItem.textContent.trim());
+  simulateRealClick(menuItem);
+
+  await new Promise(r => setTimeout(r, 1000));
+  const confirmBtn = findConfirmButton();
+  if (confirmBtn) {
+    simulateRealClick(confirmBtn);
+    await new Promise(r => setTimeout(r, 2000));
+  }
+
+  await new Promise(r => setTimeout(r, 1500));
+
+  const stillThere = Array.from(document.querySelectorAll('tr.zA'))
+    .some(r => extractThreadId(r) === String(threadId) || extractSubject(r) === subject);
+  if (!stillThere) return { ok: true, step: "permanent" };
+
+  return { ok: false, step: "permanent", error: "Row still in trash after delete forever" };
+}
+
+async function deleteGmailMessage(threadId, subject) {
+  console.log("[gmail] delete request for thread:", threadId, "subject:", subject);
+
+  const trashResult = await moveToTrash(threadId, subject);
+  console.log("[gmail] trash result:", trashResult);
+  if (!trashResult.ok) return trashResult;
+
+  const permResult = await deleteFromTrash(threadId, subject);
+  console.log("[gmail] permanent result:", permResult);
+  if (permResult.ok) return { ok: true, method: "trash + permanent" };
+
+  return { ok: false, step: "permanent", error: permResult.error };
+}
+
+// ---------- LISTENERS ----------
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+  if (msg.action === "deleteGmailMessage") {
+    deleteGmailMessage(msg.threadId, msg.subject)
+      .then(r => sendResponse(r))
+      .catch(e => sendResponse({ ok: false, error: String(e) }));
+    return true;
+  }
+
+  if (msg.action === "rescrapeInbox") {
+    (async () => {
+      const info = tryExtractGmailInfo();
+      if (!info) { sendResponse({ ok: false }); return; }
+      const rowsFound = await waitFor(() => {
+        const rows = document.querySelectorAll('tr.zA');
+        return rows.length > 0 ? rows : null;
+      }, 15000);
+      const messages = rowsFound ? extractInboxMessages(20) : [];
+      chrome.runtime.sendMessage({
+        action: "gmailAccountInfo",
+        name: info.name, email: info.email, messages
+      });
+      sendResponse({ ok: true, count: messages.length });
+    })();
+    return true;
+  }
+
+  if (msg.action === "clearInbox") {
+    (async () => {
+      location.hash = "#inbox";
+      await new Promise(r => setTimeout(r, 3000));
+
+      const selectAll = document.querySelector('[data-tooltip="Select all"]') ||
+                        document.querySelector('[aria-label="Select all"]');
+      if (!selectAll) { sendResponse({ ok: false, error: "Select all not found" }); return; }
+      simulateRealClick(selectAll);
+      await new Promise(r => setTimeout(r, 1500));
+
+      const trashBtn = findButtonByLabels(["delete", "move to trash"]);
+      if (trashBtn) {
+        simulateRealClick(trashBtn);
+        await new Promise(r => setTimeout(r, 2500));
+        sendResponse({ ok: true });
+      } else {
+        sendResponse({ ok: false, error: "Trash button not found" });
+      }
+    })();
+    return true;
+  }
+
+  if (msg.action === "restoreTrash") {
+    (async () => {
+      location.href = "https://mail.google.com/mail/u/0/#trash";
+      await new Promise(r => setTimeout(r, 5000));
+
+      const selectAll = document.querySelector('[data-tooltip="Select all"]') ||
+                        document.querySelector('[aria-label="Select all"]');
+      if (!selectAll) { sendResponse({ ok: false, error: "Select all not found" }); return; }
+      simulateRealClick(selectAll);
+      await new Promise(r => setTimeout(r, 1500));
+
+      const restoreBtn = findButtonByLabels(["move to inbox", "restore"]);
+      if (restoreBtn) {
+        simulateRealClick(restoreBtn);
+        await new Promise(r => setTimeout(r, 2000));
+        sendResponse({ ok: true });
+      } else {
+        sendResponse({ ok: false, error: "Restore button not found" });
+      }
+    })();
+    return true;
+  }
+});
+
+// ---------- INITIAL SCRAPE ----------
+(async () => {
+  console.log("[gmail] content script loaded");
+
+  const info = await waitFor(() => tryExtractGmailInfo(), 30000);
+  if (!info) {
+    chrome.runtime.sendMessage({
+      action: "gmailAccountInfo", name: null, email: null, messages: []
+    });
+    return;
+  }
+
+  const rowsFound = await waitFor(() => {
+    const rows = document.querySelectorAll('tr.zA');
+    return rows.length > 0 ? rows : null;
+  }, 30000);
+
+  const messages = rowsFound ? extractInboxMessages(20) : [];
+  console.log("[gmail] scraped:", messages.length, "messages");
+
+  chrome.runtime.sendMessage({
+    action: "gmailAccountInfo",
+    name: info.name,
+    email: info.email,
+    messages
+  });
+})();
